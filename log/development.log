@@ -1,0 +1,681 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (36.3ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePassages (20130427232252)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (724.0ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (56.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232252')
+  [1m[36m (24.2ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePhrases (20130427232339)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (140.4ms)[0m  [1mCREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232339')
+  [1m[36m (8.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePassages (20130427232252)
+Migrating to CreatePhrases (20130427232339)
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (447.0ms)[0m  [1mDROP DATABASE IF EXISTS "shipping_dev"[0m
+  [1m[35m (412.6ms)[0m  DROP DATABASE IF EXISTS "shipping_dev_test"
+  [1m[36m (2099.0ms)[0m  [1mCREATE DATABASE "shipping_dev" ENCODING = 'utf8'[0m
+  [1m[35m (775.1ms)[0m  CREATE DATABASE "shipping_dev_test" ENCODING = 'utf8'
+  [1m[36m (88.2ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (73.8ms)[0m  CREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (173.9ms)[0m  [1mCREATE TABLE "preference" ("id" serial primary key, "shop_url" character varying(255), "origin_postal_code" character varying(255), "default_weight" character varying(255), "height" decimal(10,2), "width" decimal(10,2), "length" decimal(10,2), "surcharge_percentage" float, "items_per_box" integer, "default_charge" decimal(10,2), "shipping_methods_allowed_int" text, "container_weight" decimal(10,2), "shipping_methods_allowed_dom" text, "default_box_size" integer, "shipping_methods_desc_int" text, "shipping_methods_desc_dom" text, "surcharge_amount" decimal, "hide_welcome_note" boolean, "carrier" character varying(255), "free_shipping_option" boolean, "free_shipping_description" character varying(255)) [0m
+  [1m[35m (141.5ms)[0m  CREATE TABLE "shops" ("id" serial primary key, "url" character varying(255), "token" character varying(255), "active_subscriber" boolean, "signup_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "charge_id" character varying(255), "status" character varying(255), "theme_modified" boolean, "version" integer) 
+  [1m[36m (185.2ms)[0m  [1mCREATE TABLE "weight_based_rates" ("id" serial primary key, "title" character varying(255), "weight_range" text, "rate" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "preference_id" integer) [0m
+  [1m[35m (8.8ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (94.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.8ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130427232339')[0m
+  [1m[35m (10.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130427232252')
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (7.7ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:32:57 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:32:57 UTC +00:00]]
+  [1m[35m (10.6ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (330.6ms)[0m  [1mDROP DATABASE IF EXISTS "shipping_dev"[0m
+  [1m[35m (330.3ms)[0m  DROP DATABASE IF EXISTS "shipping_dev_test"
+  [1m[36m (819.4ms)[0m  [1mCREATE DATABASE "shipping_dev" ENCODING = 'utf8'[0m
+  [1m[35m (797.5ms)[0m  CREATE DATABASE "shipping_dev_test" ENCODING = 'utf8'
+  [1m[36m (158.3ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (140.6ms)[0m  CREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (174.0ms)[0m  [1mCREATE TABLE "preference" ("id" serial primary key, "shop_url" character varying(255), "origin_postal_code" character varying(255), "default_weight" character varying(255), "height" decimal(10,2), "width" decimal(10,2), "length" decimal(10,2), "surcharge_percentage" float, "items_per_box" integer, "default_charge" decimal(10,2), "shipping_methods_allowed_int" text, "container_weight" decimal(10,2), "shipping_methods_allowed_dom" text, "default_box_size" integer, "shipping_methods_desc_int" text, "shipping_methods_desc_dom" text, "surcharge_amount" decimal, "hide_welcome_note" boolean, "carrier" character varying(255), "free_shipping_option" boolean, "free_shipping_description" character varying(255)) [0m
+  [1m[35m (229.6ms)[0m  CREATE TABLE "shops" ("id" serial primary key, "url" character varying(255), "token" character varying(255), "active_subscriber" boolean, "signup_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "charge_id" character varying(255), "status" character varying(255), "theme_modified" boolean, "version" integer) 
+  [1m[36m (151.8ms)[0m  [1mCREATE TABLE "weight_based_rates" ("id" serial primary key, "title" character varying(255), "weight_range" text, "rate" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "preference_id" integer) [0m
+  [1m[35m (19.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (125.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.9ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (51.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130427232339')[0m
+  [1m[35m (10.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130427232252')
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (5.3ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:33:33 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:33:33 UTC +00:00]]
+  [1m[35m (7.7ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mDROP DATABASE IF EXISTS "mandala"[0m
+  [1m[35m (0.7ms)[0m  DROP DATABASE IF EXISTS "mandala_test"
+  [1m[36m (1186.8ms)[0m  [1mCREATE DATABASE "mandala" ENCODING = 'utf8'[0m
+  [1m[35m (665.6ms)[0m  CREATE DATABASE "mandala_test" ENCODING = 'utf8'
+  [1m[36m (91.4ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (85.2ms)[0m  CREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (151.9ms)[0m  [1mCREATE TABLE "preference" ("id" serial primary key, "shop_url" character varying(255), "origin_postal_code" character varying(255), "default_weight" character varying(255), "height" decimal(10,2), "width" decimal(10,2), "length" decimal(10,2), "surcharge_percentage" float, "items_per_box" integer, "default_charge" decimal(10,2), "shipping_methods_allowed_int" text, "container_weight" decimal(10,2), "shipping_methods_allowed_dom" text, "default_box_size" integer, "shipping_methods_desc_int" text, "shipping_methods_desc_dom" text, "surcharge_amount" decimal, "hide_welcome_note" boolean, "carrier" character varying(255), "free_shipping_option" boolean, "free_shipping_description" character varying(255)) [0m
+  [1m[35m (151.9ms)[0m  CREATE TABLE "shops" ("id" serial primary key, "url" character varying(255), "token" character varying(255), "active_subscriber" boolean, "signup_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "charge_id" character varying(255), "status" character varying(255), "theme_modified" boolean, "version" integer) 
+  [1m[36m (130.0ms)[0m  [1mCREATE TABLE "weight_based_rates" ("id" serial primary key, "title" character varying(255), "weight_range" text, "rate" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "preference_id" integer) [0m
+  [1m[35m (9.2ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (72.6ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.8ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130427232339')[0m
+  [1m[35m (10.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130427232252')
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:37:25 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:37:25 UTC +00:00]]
+  [1m[35m (2.8ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (92.2ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (96.2ms)[0m  CREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) 
+  [1m[36m (129.7ms)[0m  [1mCREATE TABLE "preference" ("id" serial primary key, "shop_url" character varying(255), "origin_postal_code" character varying(255), "default_weight" character varying(255), "height" decimal(10,2), "width" decimal(10,2), "length" decimal(10,2), "surcharge_percentage" float, "items_per_box" integer, "default_charge" decimal(10,2), "shipping_methods_allowed_int" text, "container_weight" decimal(10,2), "shipping_methods_allowed_dom" text, "default_box_size" integer, "shipping_methods_desc_int" text, "shipping_methods_desc_dom" text, "surcharge_amount" decimal, "hide_welcome_note" boolean, "carrier" character varying(255), "free_shipping_option" boolean, "free_shipping_description" character varying(255)) [0m
+  [1m[35m (152.3ms)[0m  CREATE TABLE "shops" ("id" serial primary key, "url" character varying(255), "token" character varying(255), "active_subscriber" boolean, "signup_date" timestamp, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "charge_id" character varying(255), "status" character varying(255), "theme_modified" boolean, "version" integer) 
+  [1m[36m (140.7ms)[0m  [1mCREATE TABLE "weight_based_rates" ("id" serial primary key, "title" character varying(255), "weight_range" text, "rate" float, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "preference_id" integer) [0m
+  [1m[35m (8.7ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (83.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.8ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (7.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130427232339')[0m
+  [1m[35m (10.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130427232252')
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (7.3ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:38:07 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:38:07 UTC +00:00]]
+  [1m[35m (9.8ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (23.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (60.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePassages (20130427232252)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (51.1ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232252')
+  [1m[36m (16.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePhrases (20130427232339)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (75.4ms)[0m  [1mCREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232339')
+  [1m[36m (17.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (1.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (5.8ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:40:32 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:40:32 UTC +00:00]]
+  [1m[35m (30.8ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (57.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (171.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePassages (20130427232252)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (90.8ms)[0m  [1mCREATE TABLE "passages" ("id" serial primary key, "title" character varying(255), "damage" integer, "population" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232252')
+  [1m[36m (11.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePhrases (20130427232339)
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (140.5ms)[0m  [1mCREATE TABLE "phrases" ("id" serial primary key, "content" character varying(255), "hit_points" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130427232339')
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+Migrating to AddPassageId (20130427234212)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.9ms)[0m  [1mALTER TABLE "phrases" ADD COLUMN "passage_id" integer[0m
+  [1m[35m (119.4ms)[0m  CREATE INDEX "index_phrases_on_passage_id" ON "phrases" ("passage_id")
+  [1m[36m (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130427234212')[0m
+  [1m[35m (13.0ms)[0m  COMMIT
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.6ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (5.7ms)[0m  [1mINSERT INTO "passages" ("created_at", "damage", "population", "title", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["created_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00], ["damage", 0], ["population", 0], ["title", "first"], ["updated_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00]]
+  [1m[35m (14.4ms)[0m  COMMIT
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "phrases" ("content", "created_at", "hit_points", "passage_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["content", "The room is dark, so you can't see much."], ["created_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00], ["hit_points", 10], ["passage_id", 1], ["updated_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00]]
+  [1m[36m (3.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "phrases" ("content", "created_at", "hit_points", "passage_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["content", "You can barely make out what looks like a figure."], ["created_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00], ["hit_points", 20], ["passage_id", 1], ["updated_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00]]
+  [1m[35m (8.2ms)[0m  COMMIT
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "phrases" ("content", "created_at", "hit_points", "passage_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["content", "Something tells you, this might be the end..."], ["created_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00], ["hit_points", 5], ["passage_id", 1], ["updated_at", Sat, 27 Apr 2013 23:46:35 UTC +00:00]]
+  [1m[36m (7.7ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-27 16:46:53 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 200 OK (3ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:47:04 -0700
+Processing by PassagesController#index as HTML
+  [1m[36mPassage Load (0.7ms)[0m  [1mSELECT "passages".* FROM "passages" [0m
+  Rendered passages/index.html.haml within layouts/application (5.7ms)
+Compiled passages.css  (20ms)  (pid 10711)
+Compiled phrases.css  (0ms)  (pid 10711)
+Compiled scaffolds.css  (8ms)  (pid 10711)
+Compiled application.css  (41ms)  (pid 10711)
+Compiled jquery.js  (1ms)  (pid 10711)
+Compiled jquery_ujs.js  (0ms)  (pid 10711)
+Compiled passages.js  (484ms)  (pid 10711)
+Compiled phrases.js  (128ms)  (pid 10711)
+Compiled application.js  (700ms)  (pid 10711)
+Completed 200 OK in 868ms (Views: 825.6ms | ActiveRecord: 7.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /passages.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /scaffolds.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /phrases.css - 200 OK (1ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /passages.js - 200 OK (1ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /phrases.js - 200 OK (20ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:06 -0700
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/passages/1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Processing by PassagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPassage Load (2.9ms)[0m  SELECT "passages".* FROM "passages" WHERE "passages"."id" = $1 LIMIT 1  [["id", "1"]]
+  Rendered passages/show.html.haml within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:12 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages/1/edit" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Processing by PassagesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPassage Load (0.4ms)[0m  [1mSELECT "passages".* FROM "passages" WHERE "passages"."id" = $1 LIMIT 1[0m  [["id", "1"]]
+  Rendered passages/_form.html.haml (7.8ms)
+  Rendered passages/edit.html.haml within layouts/application (11.6ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:47:19 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-04-27 16:49:29 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:49:34 -0700
+Processing by PassagesController#index as HTML
+  [1m[35mPassage Load (0.5ms)[0m  SELECT "passages".* FROM "passages" 
+  Rendered passages/index.html.haml within layouts/application (43.2ms)
+Completed 500 Internal Server Error in 45ms
+
+ActionView::Template::Error (Association named 'phrase' was not found; perhaps you misspelled it?):
+    9:     %th
+    10:     %th
+    11: 
+    12:   - @passages.each do |passage|
+    13:     %tr
+    14:       %td= passage.title
+    15:       %td= passage.damage
+  app/views/passages/index.html.haml:12:in `_app_views_passages_index_html_haml__2761732974069336759_24391500'
+  app/controllers/passages_controller.rb:7:in `index'
+
+
+  Rendered /home/zeigfreid/.rvm/gems/ruby-1.9.3-p194@mandala/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/zeigfreid/.rvm/gems/ruby-1.9.3-p194@mandala/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/zeigfreid/.rvm/gems/ruby-1.9.3-p194@mandala/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.3ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Processing by PassagesController#index as HTML
+  [1m[36mPassage Load (0.3ms)[0m  [1mSELECT "passages".* FROM "passages" [0m
+  Rendered passages/index.html.haml within layouts/application (4.4ms)
+Completed 200 OK in 19ms (Views: 9.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:50:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:51:32 -0700
+Processing by PassagesController#index as HTML
+  [1m[35mPassage Load (0.4ms)[0m  SELECT "passages".* FROM "passages" 
+  Rendered passages/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:33 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Processing by PassagesController#index as HTML
+  [1m[36mPassage Load (0.3ms)[0m  [1mSELECT "passages".* FROM "passages" [0m
+  Rendered passages/index.html.haml within layouts/application (1.1ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:45 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Processing by PassagesController#index as HTML
+  [1m[35mPassage Load (0.3ms)[0m  SELECT "passages".* FROM "passages" 
+  Rendered passages/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /phrases.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:47 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Processing by PassagesController#index as HTML
+  [1m[36mPassage Load (0.3ms)[0m  [1mSELECT "passages".* FROM "passages" [0m
+  Rendered passages/index.html.haml within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /passages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages/1" for 127.0.0.1 at 2013-04-27 16:51:57 -0700
+Processing by PassagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPassage Load (0.6ms)[0m  SELECT "passages".* FROM "passages" WHERE "passages"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mPhrase Load (0.4ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."passage_id" = 1[0m
+  Rendered passages/show.html.haml within layouts/application (78.1ms)
+Completed 200 OK in 87ms (Views: 81.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:51:58 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages/1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Processing by PassagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPassage Load (0.4ms)[0m  SELECT "passages".* FROM "passages" WHERE "passages"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mPhrase Load (0.5ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."passage_id" = 1[0m
+  Rendered passages/show.html.haml within layouts/application (5.0ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:21 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/passages/1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Processing by PassagesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPassage Load (0.3ms)[0m  SELECT "passages".* FROM "passages" WHERE "passages"."id" = $1 LIMIT 1  [["id", "1"]]
+  [1m[36mPhrase Load (1.1ms)[0m  [1mSELECT "phrases".* FROM "phrases" WHERE "phrases"."passage_id" = 1[0m
+  Rendered passages/show.html.haml within layouts/application (9.6ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/phrases.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /phrases.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/passages.css?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /passages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/passages.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /passages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/phrases.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /phrases.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-27 16:52:44 -0700
+Served asset /application.js - 304 Not Modified (1ms)

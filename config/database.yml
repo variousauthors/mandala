@@ -1,0 +1,28 @@
+
+development:
+  adapter: postgresql
+  database: mandala
+  username: postgres
+  password: deviantmammothelegantblazer
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: mandala_test
+  username: postgres
+  password: deviantmammothelegantblazer
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: mandala_production
+  username: postgres
+  password: deviantmammothelegantblazer
+  host: localhost
+
+staging:
+  adapter: postgresql
+  database: mandala_staging
+  username: postgres
+  password: deviantmammothelegantblazer
+  host: localhost
