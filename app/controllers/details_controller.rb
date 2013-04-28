@@ -13,7 +13,8 @@ class DetailsController < ApplicationController
   # GET /details/1
   # GET /details/1.json
   def show
-    @detail = Detail.find_by_keyword(URI.unescape(params[:id]))
+    @phrase = Phrase.find_by_id(params[:id])
+    @detail = @phrase.details.find_by_keyword(URI.unescape(params[:keyword]))
 
     respond_to do |format|
       format.html { render layout: false }# show.html.erb

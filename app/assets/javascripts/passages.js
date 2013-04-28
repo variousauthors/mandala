@@ -18,7 +18,8 @@ $(function() {
       $(this).siblings('p.' + keyword).remove();
 
     } else {
-      $.get("/details" + '/' + $(this).attr('href'), function(data) {
+      var url = "/details" + '/' + $(this).attr('href') + '/' + $(this).parent().attr('id');
+      $.get(url, function(data) {
         var hey = $(that).parent().append(data);
       });
     }

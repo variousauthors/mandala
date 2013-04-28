@@ -1,5 +1,5 @@
 .passage
   %p
     - @passage.phrases.each do |phrase|
-      %span{ :style => "opacity: #{ phrase.opacity }" }
+      %span{ :id => phrase.id, :style => "opacity: #{ phrase.opacity }" }
         = raw(phrase.content) + " "
