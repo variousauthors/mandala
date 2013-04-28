@@ -26,6 +26,8 @@ gem 'jquery-rails'
 gem 'high_voltage'
 gem "haml-rails"
 gem 'wicked_pdf'
+gem 'dalli'
+gem 'google-analytics-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
