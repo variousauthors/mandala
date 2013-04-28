@@ -13,8 +13,8 @@
   %b content:
   %p.passage
     - @passage.phrases.each do |phrase|
-      %span{ :style => "opacity: #{ (( phrase.hit_points - @passage.damage ) / phrase.hit_points.to_f ) }" }
-        = phrase.content + ' (' + phrase.hit_points.to_s + ')'
+      %span{ :style => "opacity: #{ phrase.opacity }" }
+        = raw(phrase.content) + ' (' + phrase.hit_points.to_s + ')'
 
 = link_to 'Edit', edit_passage_path(@passage)
 \|

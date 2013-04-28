@@ -13,7 +13,11 @@ class PassagesController < ApplicationController
   # GET /passages/1
   # GET /passages/1.json
   def show
-    @passage = Passage.find(params[:id])
+    if params[:id] then
+      @passage = Passage.find(params[:id])
+    else
+      @passage = Passage.find_by_title(URI.unescape(params[:title]))
+    end
     @passage.receives_damage
 
     respond_to do |format|
