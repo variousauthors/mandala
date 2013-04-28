@@ -4,6 +4,7 @@ Mandala::Application.routes.draw do
   resources :passages
 
   match '(/:title)(.:format)'=> 'passages#show'
+  root to: "passages#index", id: 1
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
