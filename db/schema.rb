@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130427234212) do
+ActiveRecord::Schema.define(:version => 20130428033321) do
 
   create_table "passages", :force => true do |t|
     t.string   "title"
@@ -22,11 +22,12 @@ ActiveRecord::Schema.define(:version => 20130427234212) do
   end
 
   create_table "phrases", :force => true do |t|
-    t.string   "content"
+    t.text     "content"
     t.integer  "hit_points"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "passage_id"
+    t.boolean  "blank"
   end
 
   add_index "phrases", ["passage_id"], :name => "index_phrases_on_passage_id"

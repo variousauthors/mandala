@@ -1,5 +1,5 @@
 class Phrase < ActiveRecord::Base
-  attr_accessible :content, :hit_points
+  attr_accessible :content, :hit_points, :blank
   belongs_to :passage
 
   # returns the opacity at which this phrase should be displayed,
@@ -8,7 +8,7 @@ class Phrase < ActiveRecord::Base
     hit_points_left = self.hit_points - self.passage.damage
     ratio = hit_points_left / self.hit_points.to_f
 
-    return ratio.to_s
+    return [ratio, 0].max.to_s
   end
 
 end
