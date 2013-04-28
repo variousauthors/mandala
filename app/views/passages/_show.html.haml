@@ -1,17 +1,5 @@
 .passage
   %p
-    %b Title:
-    = @passage.title
-  %p
-    %b Damage:
-    = @passage.damage
-  %p
-    %b Population:
-    = @passage.population
-  %p
-    %b content:
-
-  %p
     - @passage.phrases.each do |phrase|
       %span{ :style => "opacity: #{ phrase.opacity }" }
-        = raw(phrase.content) + ' (' + phrase.hit_points.to_s + ')'
+        = raw(phrase.content) + " "
