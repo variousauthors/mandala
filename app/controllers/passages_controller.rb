@@ -18,7 +18,7 @@ class PassagesController < ApplicationController
     @passage.receives_damage
 
     respond_to do |format|
-      format.html # show.html.erb
+      format.html { render layout: false } # show.html.erb
       format.json { render json: @passage }
     end
   end

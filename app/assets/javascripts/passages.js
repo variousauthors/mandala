@@ -1,15 +1,15 @@
 
 $(function() {
-  $('.passage a.title').on('click', function(e) {
+  $(document).on('click', '.passage a.title', function(e) {
     e.preventDefault();
 
     $.get('/' + $(this).attr('href'), function(data) {
-      $('.passage').html(data);
+      $('.passage').parent().html(data);
 
     });
   });
 
-  $('.passage a.keyword').on('click', function(e) {
+  $(document).on('click', '.passage a.keyword',  function(e) {
     e.preventDefault();
     var that = this;
     var keyword = $(this).attr("href");
