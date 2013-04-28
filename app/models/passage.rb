@@ -1,6 +1,12 @@
 class Passage < ActiveRecord::Base
-  attr_accessible :damage, :population, :title
+  attr_accessible :damage, :population, :title, :phrases_attributes
+
   has_many :phrases
+  accepts_nested_attributes_for :phrases
+
+  before_create :default_values
+
+  validates :title, uniqueness: true
 
   def receives_damage
     self.damage += 1
@@ -16,5 +22,12 @@ class Passage < ActiveRecord::Base
     end
 
     self.save
+  end
+
+  private
+  def default_values
+    self.population ||= 0
+    self.damage ||= 0
+
   end
 end

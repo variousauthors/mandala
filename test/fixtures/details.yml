@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  keyword: MyString
+  content: MyText
+  phrase_id: 1
+
+two:
+  keyword: MyString
+  content: MyText
+  phrase_id: 1

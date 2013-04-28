@@ -1,0 +1,23 @@
+%h1 Listing details
+
+%table
+  %tr
+    %th Keyword
+    %th Content
+    %th Phrase
+    %th
+    %th
+    %th
+
+  - @details.each do |detail|
+    %tr
+      %td= detail.keyword
+      %td= detail.content
+      %td= detail.phrase_id
+      %td= link_to 'Show', detail
+      %td= link_to 'Edit', edit_detail_path(detail)
+      %td= link_to 'Destroy', detail, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Detail', new_detail_path

@@ -1,9 +1,12 @@
 Mandala::Application.routes.draw do
+  resources :details
+
   resources :phrases
 
   resources :passages
 
   match '(/:title)(.:format)'=> 'passages#show'
+  match 'details(/:keyword)/:id(.:format)'=> 'details#show'
   root to: "passages#index", id: 1
 
   # The priority is based upon order of creation:

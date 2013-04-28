@@ -1,6 +1,9 @@
 class Phrase < ActiveRecord::Base
-  attr_accessible :content, :hit_points, :blank
+  attr_accessible :content, :hit_points, :blank, :details_attributes
   belongs_to :passage
+
+  has_many :details
+  accepts_nested_attributes_for :details
 
   # returns the opacity at which this phrase should be displayed,
   # as calculated by its damage rating

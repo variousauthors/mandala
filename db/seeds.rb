@@ -12,10 +12,42 @@
 #   { content:"", hit_points:0 , blank: false }
 # ])
 
+params =  { :passage =>
+  {
+    :title => 'room with details',
+    :phrases_attributes => [
+      {
+        :content => 'A fancy room full of <a class="keyword" href="/life">life</a>.',
+        :hit_points => 10,
+        :details_attributes => [
+          {
+            :keyword => 'life',
+            :content => 'that stuff that crawls around the earth'
+          }]
+      },
+      {
+        :content => 'There is a table in the center of the room.',
+        :hit_points => 10,
+      },
+      {
+        :content => 'On the table, rests a <a class="keyword" href="/knife">knife</a>',
+        :hit_points => 10,
+        :details_attributes => [
+          {
+            :keyword => 'knife',
+            :content => 'rhymes with life...'
+          }]
+      }]
+  }
+}
+
+Passage.create!(params[:passage])
+
 Passage.create(title: "cherry", damage:0, population:0).phrases.create([
   { content:"The room smells like old tatami.", hit_points:10 , blank: false },
-  { content:"A shoji screen of plain white rice paper has been left open to the <a href='/peach'>east</a>.", hit_points:5 , blank: false },
-  { content:"The north wall is open to the sun, and a garden lies <a href='/the end'>beyond a short bordwalk</a>", hit_points:30 , blank: false }
+  { content:"Testing <a class='title' href='/room with details'>testing</a>", hit_points:10 , blank: false },
+  { content:"A shoji screen of plain white rice paper has been left open to the <a class='title' href='/peach'>east</a>.", hit_points:5 , blank: false },
+  { content:"The north wall is open to the sun, and a garden lies <a class='title' href='/the end'>beyond a short bordwalk</a>", hit_points:30 , blank: false }
 ])
 
 Passage.create(title: "peach", damage:0, population:0).phrases.create([
