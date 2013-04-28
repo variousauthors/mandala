@@ -14,6 +14,7 @@ class PassagesController < ApplicationController
   # GET /passages/1.json
   def show
     @passage = Passage.find(params[:id])
+    @passage.receives_damage
 
     respond_to do |format|
       format.html # show.html.erb
@@ -72,11 +73,12 @@ class PassagesController < ApplicationController
   # DELETE /passages/1
   # DELETE /passages/1.json
   def destroy
+    puts "HELLO"
     @passage = Passage.find(params[:id])
-    @passage.destroy
+    @passage.receives_damage
 
     respond_to do |format|
-      format.html { redirect_to passages_url }
+      format.html { redirect_to @passage, notice: "damage done" }
       format.json { head :no_content }
     end
   end

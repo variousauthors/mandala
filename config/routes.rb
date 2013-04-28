@@ -1,7 +1,6 @@
 Mandala::Application.routes.draw do
   resources :phrases
 
-
   resources :passages
 
 
