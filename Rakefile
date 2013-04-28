@@ -95,7 +95,9 @@ EOS
   end
 
   def process_as_detail(line)
-    keyword, content = line.split(':')
+    parts = line.split(":")
+    keyword = parts.shift
+    content = parts.join(":")
 
 # this indentation is important!
 <<-EOS
