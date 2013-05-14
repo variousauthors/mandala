@@ -1,0 +1,459 @@
+- title: "long hall deck garden entrance"
+  phrases_attributes:
+  - content: "You are standing in the center of a narrow wooden deck pressed between the side of a gorgeous old Japanese <a class='keyword' href='house'>house</a>, and a stunning walled <a class='keyword' href='garden'>garden</a>."
+    hit_points: 500
+    details_attributes:
+    - keyword: "house"
+      content: "Most of the house is off limits. It has not been lived in for decades, and is now more of a cultural relic."
+    - keyword: "garden"
+      content: "The pond is the attraction."
+  - content: "The deck is not completely open: where you are standing there is a small plain step down into the <a class='title' href='mossy checker-board'>garden</a>."
+    hit_points: 100
+    
+  - content: "It is mostly fenced off from the garden by tightly spaced beams of a slightly lighter wood tone than the floor."
+    hit_points: 200
+    
+  - content: "Cast against these beams, the sunlight is split into shafts that paint the deck, and the west wall of the house."
+    hit_points: 200
+    
+  - content: "The <a class='title' href='mossy checker-board'>garden</a> is dominated by a pond in the center, and two handsome old trees growing in the south-east corner."
+    hit_points: 200
+    
+  - content: "The deck continues <a class='title' href='long hall deck northeast'>north</a> and <a class='title' href='long hall deck south'>south</a>, between the wooden beams and the pale rice paper walls, all along the side of the old house, until it runs into the garden wall on both sides."
+    hit_points: 500
+    
+- title: "solution"
+  phrases_attributes:
+  - content: "this is the <a class='keyword' href='answer'>answer</a>"
+    hit_points: 20
+    details_attributes:
+    - keyword: "answer"
+      content: "it might not be a good one"
+  - content: "this is all we have"
+    hit_points: 30
+    
+  - content: "go back to <a class='title' href='another room'>the beginning</a>"
+    hit_points: 100
+    
+- title: "another room"
+  phrases_attributes:
+  - content: "with text <a class='keyword' href='values'>values</a>"
+    hit_points: 100
+    details_attributes:
+    - keyword: "values"
+      content: "ever so valuable"
+- title: "south shoji"
+  phrases_attributes:
+  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
+    hit_points: 250
+    
+  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
+    hit_points: 100
+    details_attributes:
+    - keyword: "eight"
+      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
+  - content: "Standing in the southern room and looking north feels like being in a ribbed train <a class='keyword' href='tunnel'>tunnel</a>."
+    hit_points: 50
+    details_attributes:
+    - keyword: "tunnel"
+      content: "the rooms in the center of the hall are intentionally darker than those at the end, so no matter where you stand you have the impression of being deep inside, looking out."
+  - content: "Bright light from the deck falls in harsh shafts through the <a class='title' href='long hall deck south'>south-east door</a>."
+    hit_points: 250
+    
+  - content: "A softer light filters though the square rice paper panels of the east wall."
+    hit_points: 30
+    
+  - content: "The room is dominated by the view <a class='title' href='middle shoji'>north</a>, room after room of sliding panels capped by an unassuming low table."
+    hit_points: 100
+    
+  - content: "However, the opaque pale beige <a class='keyword' href='screens'>screens</a> that separate each room, and adorn the west wall, also tug at your attention."
+    hit_points: 20
+    details_attributes:
+    - keyword: "screens"
+      content: "Each screen was delicately painted with some natural seen; some of the paintings are hundreds of years old and are faded beyond recognition."
+- title: "middle shoji"
+  phrases_attributes:
+  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
+    hit_points: 100
+    
+  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
+    hit_points: 50
+    details_attributes:
+    - keyword: "eight"
+      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
+  - content: "The light here is exclusively that which <a class='keyword' href='filters'>filters</a> through the square rice paper panels on the east wall."
+    hit_points: 50
+    details_attributes:
+    - keyword: "filters"
+      content: "There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall."
+  - content: "Looking <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='peering'>peering</a>."
+    hit_points: 30
+    details_attributes:
+    - keyword: "peering"
+      content: "Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision."
+    - keyword: "fossil"
+      content: "Even the plants are dead, in a sense: the gardens have not changed in decades, and every flower is exactly where is was last spring."
+  - content: "At the <a class='title' href='tokonoma shoji'>north</a> end of the hall, past two more sliding screens, there is a small table set against glowing rice paper panels."
+    hit_points: 40
+    
+  - content: "Painted on the opaque beige shoji making up the western wall is a seen of a whether worn <a class='keyword' href='coast'>coast</a>."
+    hit_points: 20
+    details_attributes:
+    - keyword: "coast"
+      content: "You can barely make out the outline of a boat, sailing away."
+- title: "tokonoma shoji"
+  phrases_attributes:
+  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
+    hit_points: 100
+    
+  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
+    hit_points: 50
+    details_attributes:
+    - keyword: "eight"
+      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
+  - content: "The light here is exclusively that which <a class='keyword' href='filters'>filters</a> through the square rice paper panels on the east wall."
+    hit_points: 50
+    details_attributes:
+    - keyword: "filters"
+      content: "There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall."
+  - content: "Looking <a class='title' href='small table shoji'>north</a> or <a class='title' href='middle shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='peering'>peering</a>."
+    hit_points: 30
+    details_attributes:
+    - keyword: "peering"
+      content: "Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision."
+    - keyword: "fossil"
+      content: "Even the plants are dead, in a sense: the gardens have not changed in decades, and every flower is exactly where is was last spring."
+  - content: "At the <a class='title' href='tokonoma shoji'>north</a> end of the hall, past another more sliding screen, there is a small table set against glowing rice paper panels."
+    hit_points: 40
+    
+  - content: "In the south-west corner of the room there is a tiny <a class='keyword' href='tokonoma'>tokonoma</a>, half as high as a man, inset into the wall."
+    hit_points: 20
+    details_attributes:
+    - keyword: "tokonoma"
+      content: "There is a tiny red flower in a grown clay vase, pushed back into the corner of the tokonoma. On the wall hangs a scroll, depicting a peasant working in a potato field."
+  - content: "Unlike the rest of these rooms, the west wall is not made of opaque beige painted screens. It is humble, earthy clay and old wood."
+    hit_points: 15
+    
+  - content: "A single raw branch of dark wood is set into the wall, and separates the right and left side of the wall."
+    hit_points: 10
+    
+- title: "small table shoji"
+  phrases_attributes:
+  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
+    hit_points: 250
+    
+  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
+    hit_points: 100
+    details_attributes:
+    - keyword: "eight"
+      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
+  - content: "Standing in the northern room and looking <a class='title' href='tokonoma shoji'>south</a> feels like staring at a mise en abyme, echoing the same minimalist aesthetic again and again."
+    hit_points: 100
+    
+  - content: "In the center of the room is a low, flat table made of smooth, dark wood."
+    hit_points: 75
+    
+  - content: "On either side of the table there is a cushion, laying on the tatami."
+    hit_points: 40
+    
+  - content: "There is a bowl in the center of the table, blue and white painted <a class='keyword' href='china'>china</a>."
+    hit_points: 30
+    details_attributes:
+    - keyword: "china"
+      content: "The light from the door catches elegantly on the small ceramic dish."
+  - content: "The table is set with two simple rough pieces of cloth, one on the west and one on the east."
+    hit_points: 25
+    
+  - content: "On each piece of cloth there is a chopstick stand and two chopsticks."
+    hit_points: 20
+    
+  - content: "Beside the chopsticks, there is a tiny flat cup barely half an ounce."
+    hit_points: 15
+    
+  - content: "Actually, one of the cushions looks to have been sat in recently."
+    hit_points: 10
+    
+  - content: "And in the other, there is a young man. You did not notice him before entering the room."
+    hit_points: 6
+    
+  - content: "When he sees you he stands up immediately. His smile is warm."
+    hit_points: 4
+    
+  - content: "\"おかえり。\" he says, smiling for just a moment."
+    hit_points: 2
+    
+  - content: "Light pours into this room, from a door in the <a class='title' href='long hall deck northeast'>south-east</a> corner."
+    hit_points: 250
+    
+  - content: "The sun shinning in from the south-east is a grid of light and shadow."
+    hit_points: 40
+    
+  - content: "Thin rice paper panels make up the north and east walls, and there is an open sliding screen in the <a class='title' href='north garden view'>north-west</a> corner."
+    hit_points: 50
+    
+- title: "north garden view"
+  phrases_attributes:
+  - content: "There is a room behind the <a class='title' href='small table shoji'>long hall</a> that overlooks a second <a class='keyword' href='garden'>garden</a>."
+    hit_points: 50
+    details_attributes:
+    - keyword: "garden"
+      content: "This one is not fenced in, though. A pond marks the end of it, unofficially."
+  - content: "The north wall of this intimate room is dominated by a swirling landscape of color <a class='keyword' href='squeezed'>squeezed</a> between pale white sliding doors."
+    hit_points: 25
+    details_attributes:
+    - keyword: "squeezed"
+      content: "And a pale white."
+  - content: "Just <a class='title' href='second garden'>outside</a> there is a small deck, made of a light <a class='keyword' href='wood'>wood</a> different from the other decks."
+    hit_points: 15
+    details_attributes:
+    - keyword: "wood"
+      content: "And pale white planks."
+  - content: "Overhanging the deck is a gnarly old <a class='keyword' href='pine'>pine</a> tree, which lists to the left."
+    hit_points: 20
+    details_attributes:
+    - keyword: "pine"
+      content: "There are no pine needles on the deck though."
+  - content: "The arms of the pine tree stretch out over a small, well combed sand garden."
+    hit_points: 20
+    
+  - content: "In the garden there are mossy stones drifting between the waves of diffuse beige sand."
+    hit_points: 15
+    
+  - content: "The sand garden borders a tiny <a class='keyword' href='shallow'>shallow</a> pool, fed from the surrounding forest."
+    hit_points: 10
+    details_attributes:
+    - keyword: "shallow"
+      content: "It is so reflective that squeezes the trees and hills beyond up against the sky."
+  - content: "A child is sitting on the deck, playing a <a class='keyword' href='flute'>flute</a> poorly. Her legs dangle into the garden."
+    hit_points: 6
+    details_attributes:
+    - keyword: "flute"
+      content: "Or maybe she is playing well, but in a way that you fail to appreciate?"
+  - content: "The beige and blue landscape of the garden is pressed flat by the forest and hills beyond."
+    hit_points: 25
+    
+  - content: "Bright red and orange flowers, or wild fruit bearing trees, growing out there forever beyond our control."
+    hit_points: 25
+    
+- title: "second garden"
+  phrases_attributes:
+  - content: "The air here is cold, there is a <a class='keyword' href='breeze'>breeze</a>. It was much warmer <a class='title' href='north garden view'>inside</a>."
+    hit_points: 15
+    details_attributes:
+    - keyword: "breeze"
+      content: "Maybe you should move back inside?"
+  - content: "The second garden is more of a back yard. It is more a thing of accidental beauty than the garden guests are shown."
+    hit_points: 10
+    
+  - content: "The little girl looks up at you as you approach. She considers you gravely."
+    hit_points: 6
+    
+  - content: "\"てんぐ、ね？\" she says sympathetically, pointing at her nose."
+    hit_points: 4
+    
+  - content: "\"はい\", the girl mumbles as she reaches into her sode and produces a tiny <a class='keyword' href='candy'>candy</a>, wrapped in colorful foil. \"これ、あげるから\" she smiles, handing you the candy."
+    hit_points: 2
+    details_attributes:
+    - keyword: "candy"
+      content: "It is orange flavor."
+- title: "long hall deck south"
+  phrases_attributes:
+  - content: "What you can see of the garden, between the beams of wood that fence in the deck, is broken down into a barcode of <a class='keyword' href='blue'>blue</a> and brown."
+    hit_points: 500
+    details_attributes:
+    - keyword: "blue"
+      content: "You can barely resolve any single shape. The most distinct feature, from this perspective, is the blue sky."
+  - content: "Though the effect of the beams is clever, it is also <a class='keyword' href='claustrophobic'>claustrophobic</a>."
+    hit_points: 100
+    details_attributes:
+    - keyword: "claustrophobic"
+      content: "There are obvious parallels to be made."
+  - content: "If you press your face up against the beams, you can <a class='keyword' href='feel'>feel</a> as though they are not there."
+    hit_points: 50
+    details_attributes:
+    - keyword: "feel"
+      content: "You feel the warm wood press against your cheeks."
+  - content: "The deck feels like an uncomfortable place half-way <a class='keyword' href='between'>between</a> the house and garden."
+    hit_points: 25
+    details_attributes:
+    - keyword: "between"
+      content: "Some people feel comfortable with their backs to the wall."
+  - content: "It continues <a class='title' href='long hall deck garden entrance'>north</a>, where you can see the beams give way and there is a step down into the garden."
+    hit_points: 500
+    
+  - content: "There is also sliding screen door here that opens into the <a class='title' href='south shoji'>interior</a> of the house. An empty room with painted walls."
+    hit_points: 200
+    
+- title: "long hall deck northeast"
+  phrases_attributes:
+  - content: "What you can see of the garden, between the beams of wood that fence in the deck, is broken down into a barcode of <a class='keyword' href='green'>green</a> and brown."
+    hit_points: 500
+    details_attributes:
+    - keyword: "green"
+      content: "You can barely resolve any single shape. The most distinct feature, from this perspective, is the mossy green landscape."
+  - content: "Though the effect of the beams is clever, it is also <a class='keyword' href='claustrophobic'>claustrophobic</a>."
+    hit_points: 100
+    details_attributes:
+    - keyword: "claustrophobic"
+      content: "You can not help but wonder what the deck looks like from the garden."
+  - content: "If you press your face up against the beams, you can <a class='keyword' href='feel'>feel</a> as though they are not there."
+    hit_points: 50
+    details_attributes:
+    - keyword: "feel"
+      content: "You feel the warm sun on your forehead."
+  - content: "The deck feels like an uncomfortable place half-way <a class='keyword' href='between'>between</a> the house and garden."
+    hit_points: 25
+    details_attributes:
+    - keyword: "between"
+      content: "If you are not careful, you might end up trapped here by indecision."
+  - content: "It continues <a class='title' href='long hall deck garden entrance'>south</a>, where you can see the beams give way and there is a step down into the garden."
+    hit_points: 500
+    
+  - content: "There is also sliding screen door here that opens into the <a class='title' href='small table shoji'>interior</a> of the house. A small room with a low wooden table."
+    hit_points: 250
+
+- title: 'mossy checker-board'
+  phrases_attributes:
+  - content: 'The ground here is a green and grey checker-board.'
+    hit_points: 150
+  - content: 'Grey squares are old stone, worn smooth by many feet.'
+    hit_points: 100
+  - content: 'There is a <a class="title" href="long hall deck garden entrance">step</a> up onto the deck here, and back into the old Japanese house.'
+    hit_points: 200
+  - content: 'Between the stones are squares of soft <a class="keyword" href="green">green</a> <a class="keyword" href="moss">moss</a>.'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'green'
+      content: 'Pale glowing green that rises from the moss like steam off a cup of tea.'
+    - keyword: 'moss'
+      content: 'Some moss is so delicate that the humidity of an animals breath is enough to doom it.'
+  - content: 'The closer you get to the <a class="keyword" href="pond">pond</a> at the center of the garden, the less you can tell the difference between grey and green.'
+    hit_points: 200
+    details_attributes:
+    - keyword: 'pond'
+      content: 'The pond is the attraction. The blue of the sky slipping between the branches and the green of the thick algae below blend into a calming grey. One old fish makes its way lazily around, without a ripple.'
+  - content: 'The surface of the pond is <a class="keyword" href="dappled">dappled</a> pink and white.'
+    hit_points: 35
+    details_attributes:
+    - keyword: 'dappled'
+      content: 'The floating leaves of plum and cherry blossom. There are only a few weeks of the year when such bright colors infiltrate the smokey earth tones.'
+  - content: 'Two <a class="keyword" href="handsome">handsome</a> trees stand on the other side of the pond.'
+    hit_points: 100
+    details_attributes:
+    - keyword: 'handsome'
+      content: 'The plum tree grows straight as an arrow up to the high of a man, before its branches suddenly spring out in all directions.'
+  - content: 'One of them is ornamental plum, and the other is <a class="keyword" href="stooped">stooped</a> cherry tree.'
+    hit_points: 45
+    details_attributes:
+    - keyword: 'stooped'
+      content: 'The cherry tree is lop-sided and uncertain. It grew mainly west for 50 years, but now its branches are so long that they dip into the water here and there.'
+  - content: 'You can reach the trees if you walk <a class="title" href="an old woman raking leaves">south</a> around the pond.'
+    hit_points: 30
+  - content: 'If you walk <a class="title" href="large flat stone">east</a>, there is a large flat relaxing by the water.'
+    hit_points: 100
+- title: 'large flat stone'
+  phrases_attributes:
+  - content: 'The stone is rough, and lies half in the water. It is as long as a man, <a class="keyword" href="reclining">reclining</a>.'
+    hit_points: 100
+    details_attributes:
+    - keyword: 'reclining'
+      content: 'Vaguely, it resembles an aging tiger by the edge of a watering whole.'
+  - content: 'There are long cracks in it, and deep <a class="keyword" href="curves">curves</a> wherever it touches the water.'
+    hit_points: 40
+    details_attributes:
+    - keyword: 'curves'
+      content: 'They fill gradually with soft, sticky petals which drift in from the pond.'
+  - content: 'Almost no waves now, but once perhaps the pond was teaming with fish and their <a class="keyword" href="dances">dances</a> dug holes in the tiger\''s side.'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'dances'
+      content: 'The one old fish that swims here is alone, and his dance is more precise and practiced than it is lively.'
+  - content: 'Between some of the cracks, tiny plants are ignored by <a class="keyword" href="generous">generous</a> gardeners.'
+    hit_points: 10
+    details_attributes:
+    - keyword: 'generous'
+      content: 'You get the sense that nothing in the garden is allowed to be out of place. Everything is meticulously combed.'
+  - content: 'A scarcity of <a class="keyword" href="petals">petals</a> have alighted on the <a class="title" href="two handsome trees">south</a> face of the rock.'
+    hit_points: 100
+    details_attributes:
+    - keyword: 'petals'
+      content: 'Some of them, steeped in filtered pink light, have dried and are stuck to the rock like the label on an apple.'
+  - content: 'The <a class="title" href="mossy checker-board">east</a> side of the rock is being invaded by moss, which has <a class="keyword" href="crept">crept</a> its way across the edge of the pond.'
+    hit_points: 100
+    details_attributes:
+    - keyword: 'crept'
+      content: 'The moss naturally goes where it will not be a center-piece or a spectacle. It does not delight in out affection.'
+- title: 'two handsome trees'
+  phrases_attributes:
+  - content: 'The shade here, beneath these two trees, is mottled <a class="keyword" href="syrup">syrup</a>.'
+    hit_points: 30
+    details_attributes:
+    - keyword: 'syrup'
+      content: 'Simple syrup left out in the sun, crystals forming on a bough.'
+  - content: 'The trees -- cherry and plum -- are stunning examples. If any <a class="keyword" href="gardening">gardening</a> has been done to them, and surely it has, it is well hidden.'
+    hit_points: 150
+    details_attributes:
+    - keyword: 'gardening'
+      content: 'Trimming away old branches, guiding growth of new ones. Of course someone is tending to this place, but we rarely see them and their cosmetic surgery is perfectly undetectable.'
+  - content: 'No lovers have read <a class="keyword" href="poetry">poetry</a> beneath the bows of these old <a class="keyword" href="beasts">beasts</a>, though they look the part.'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'poetry'
+      content: 'When has a poet been inspired by something kept? They look the part, but these trees lack substance.'
+    - keyword: 'beasts'
+      content: 'You will not be allowed to come at night, but if you could you would see another side to these trees. I remember being alone at night in an old shrine and feeling as though the xenophobic gods of the place were roiling in their sleep.'
+  - content: 'There are no initials <a class="keyword" href="carved">carved</a> in either tree.'
+    hit_points: 15
+    details_attributes:
+    - keyword: 'carved'
+      content: 'You would be arrested, or fined... but it would be worth it.'
+  - content: 'No shimenawa hang from their wastes, to mark them as <a class="keyword" href="sacred">sacred</a>.'
+    hit_points: 25
+    details_attributes:
+    - keyword: 'sacred'
+      content: 'Now there are shimenawa hung from satelites and radio towers.'
+  - content: 'Once you are standing up close, looking down at <a class="keyword" href="yourself">yourself</a> looking at their reflection in the surface of the pond...'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'yourself'
+      content: 'You have not slept in two days, and you probably need a shower.'
+  - content: 'They seem more <a class="keyword" href="human">human</a> than they are meant to be...'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'human'
+      content: '...'
+  - content: 'They are two beautiful old trees.'
+    hit_points: 60
+  - content: 'A branch of the cherry tree <a class="keyword" href="dips">dips</a> into the pool and draws your attention <a class="title" href="an old woman raking leaves">west</a>.'
+    hit_points: 100
+    details_attributes:
+    - keyword: 'dips'
+      content: 'Tiny pink blossoms cling to the careless branch.'
+  - content: 'The plum, on the other hand, is pointing towards a great old rock reclining by the water to the <a class="title" href="large flat stone">north</a>.'
+    hit_points: 100
+- title: 'an old woman raking leaves'
+  phrases_attributes:
+  - content: 'There is a small stone bench on the edge of the water.'
+    hit_points: 40
+  - content: 'A little further <a class="title" href="two handsome trees">east</a> there are two great old trees, waving their branches.'
+    hit_points: 100
+  - content: 'And <a class="title" href="mossy checker-board">north</a> of here there is some interesting masonry, stone tiles on the ground.'
+    hit_points: 100
+  - content: 'But here, shuffling her way back and forth, there is a <a class="keyword" href="woman">woman</a>.'
+    hit_points: 25
+    details_attributes:
+    - keyword: 'woman'
+      content: 'There are other people here, treading on the moss, photographing the trees, touching the rocks with gentle fingers...'
+  - content: 'She has a <a class="keyword" href="rake">rake</a>, and is ensuring the petals are in the <a class="keyword" href="right">right</a> places.'
+    hit_points: 20
+    details_attributes:
+    - keyword: 'rake'
+      content: 'Its bamboo tines are finely spaced and can pick up the subtlest debris.'
+    - keyword: 'right'
+      content: 'This woman is the only person who is really here. She not on vacation.'
+  - content: 'When she sees you looking, she stops and smiles.'
+    hit_points: 15
+  - content: 'She bows a little old bow, and says "今日は。", saying each syllable intentionally.'
+    hit_points: 10
+  - content: '"いい天気ですね" she continues, looking up at the sky emphatically.'
+    hit_points: 5
