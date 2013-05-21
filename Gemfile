@@ -28,6 +28,12 @@ gem "haml-rails"
 gem 'wicked_pdf'
 gem 'dalli'
 gem 'google-analytics-rails'
+gem 'simplecov', :require => false, :group => :test
+gem "factory_girl_rails", :group => :test
+
+group :development, :test do
+    gem 'rspec-rails', '~> 2.0'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
