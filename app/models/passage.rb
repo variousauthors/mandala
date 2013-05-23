@@ -24,6 +24,13 @@ class Passage < ActiveRecord::Base
     self.save
   end
 
+  # a method like this may be necessary
+  # def self.phrases
+  #  phrases = super
+  #
+  #  return phrases.order(:id)
+  # end
+
   private
   def default_values
     self.population ||= 0
