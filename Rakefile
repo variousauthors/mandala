@@ -22,15 +22,15 @@ namespace :content do
 
       # process contents
       contents_files.each do |file|
-        seed = process(file)
-        seeds.write(seed)
-
+        unless file == 'db/content/example.md' then
+          seed = process(file)
+          seeds.write(seed)
+        end
       end
     end
   end
 
   def process(file_name)
-    puts "processing #{file_name}"
     result = ""
 
     File.open(file_name) do |file|
@@ -47,12 +47,13 @@ namespace :content do
       end
     end
 
-    puts "finished processing #{file_name}"
     return result
   end
 
   def process_line(line)
-    case line[0] 
+    # escape quotes
+    line.gsub!('"', '\"')
+    case line[0]
       when "#"
         process_as_title(line)
       when " "
@@ -66,10 +67,10 @@ namespace :content do
     title[0] = ''
 
 # this indentation is important!
-<<-EOS
+<<-YAML
 - title: "#{title.strip}"
   phrases_attributes:
-EOS
+YAML
   end
 
   def process_as_phrase(line)
@@ -87,11 +88,11 @@ EOS
     hp = hp[1]
 
 # this indentation is important!
-<<-EOS
+<<-YAML
   - content: "#{content.strip}"
     hit_points: #{hp}
     #{detail_string.to_s}
-EOS
+YAML
   end
 
   def process_as_detail(line)
@@ -100,23 +101,32 @@ EOS
     content = parts.join(":")
 
 # this indentation is important!
-<<-EOS
+<<-YAML
     - keyword: "#{keyword.strip}"
       content: "#{content.strip}"
-EOS
+YAML
   end
 
   def titles_to_html(line)
-    text, href = line.scan(/\[(.*?)\|(.*?)\]/).flatten
-    return line unless href && text
+    links = line.scan(/\[(.*?)\|(.*?)\]/)
+    return line unless links
 
-    line.gsub(/\[.*?\|.*?\]/, "<a class='title' href='#{href.strip}'>#{text.strip}</a>")
+    links.each do |link|
+      text, href = link
+      line.gsub!(/\[#{text}\|#{href}\]/, "<a class='title' href='#{href.strip}'>#{text.strip}</a>")
+    end
+
+    line
   end
 
   def keywords_to_html(line)
-    keyword = line.scan(/{(.*?)}/).flatten[0]
-    return line unless keyword
+    keywords = line.scan(/{(.*?)}/).flatten
+    return line unless keywords
 
-    line.gsub(/{(.*?)}/, "<a class='keyword' href='#{keyword.strip}'>#{keyword.strip}</a>")
+    keywords.each do |keyword|
+      line.gsub!(/{#{keyword}}/, "<a class='keyword' href='#{keyword.strip}'>#{keyword.strip}</a>")
+    end
+
+    line
   end
 end
