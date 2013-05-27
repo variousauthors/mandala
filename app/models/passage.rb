@@ -12,13 +12,7 @@ class Passage < ActiveRecord::Base
     self.damage += 1
 
     self.phrases.each do |phrase|
-
-      if !phrase.blank && phrase.hit_points <= self.damage
-        phrase.blank = true
-        phrase.content = phrase.content.gsub(/./, "&nbsp;")
-
-        phrase.save
-      end
+      phrase.clear_phrase if phrase.should_be_blank_after? self.damage
     end
 
     self.save

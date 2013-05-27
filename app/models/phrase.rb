@@ -14,4 +14,15 @@ class Phrase < ActiveRecord::Base
     return [ratio, 0].max.to_s
   end
 
+  def clear_phrase
+    self.blank = true
+    self.content = self.content.gsub(/./, "&nbsp;")
+
+    self.save
+  end
+
+  def should_be_blank_after?(damage)
+    !self.blank && self.hit_points <= damage
+  end
+
 end
