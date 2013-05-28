@@ -155,11 +155,11 @@ YAML
   end
 
   def phrase
-    "Looking [ north | tokonoma shoji ] or [ south | south shoji ] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_with_one_title
-    "Looking north or [ south | south shoji ] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "Looking north or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_yaml
@@ -171,7 +171,7 @@ YAML
   end
 
   def phrase_with_one_detail
-    "Looking [ north | tokonoma shoji ] or [ south | south shoji ] you feel as though you are peering out from the ribs of a well preserved { fossil }.|30|"
+    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_without_detail
@@ -209,11 +209,11 @@ YAML
   end
 
   def line_with_keywords
-    "Looking [ north | tokonoma shoji ] or [ south | south shoji ] you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
+    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
   end
 
   def line_with_one_keyword
-    "Looking [ north | tokonoma shoji ] or [ south | south shoji ] you feel as though you are peering out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
+    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
   end
 
   def line_with_titles

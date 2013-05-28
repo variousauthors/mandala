@@ -108,12 +108,14 @@ YAML
   end
 
   def titles_to_html(line)
-    links = line.scan(/\[(.*?)\|(.*?)\]/)
+    # instead of [ text | href ]
+    # we will do [[text|href]]
+    links = line.scan(/\[\[(.*?)\|(.*?)\]\]/)
     return line unless links
 
     links.each do |link|
       text, href = link
-      line.gsub!(/\[#{text}\|#{href}\]/, "<a class='title' href='#{href.strip}'>#{text.strip}</a>")
+      line.gsub!(/\[\[#{text}\|#{href}\]\]/, "<a class='title' href='#{href.strip}'>#{text.strip}</a>")
     end
 
     line
