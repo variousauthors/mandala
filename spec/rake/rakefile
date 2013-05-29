@@ -67,6 +67,16 @@ describe "content rake tasks" do
         keywords_to_html(phrase).should eq line_with_keywords
       end
     end
+
+    describe "content#codes_to_html" do
+      it "converts words in angle braces to HTML anchors" do
+        codes_to_html(phrase_with_codes).should eq line_with_codes
+      end
+
+      it "converts one word in square braces to HTML anchors" do
+        codes_to_html(phrase_with_one_code).should eq line_with_one_code
+      end
+    end
   end
 
   def processed_example
@@ -115,7 +125,7 @@ describe "content rake tasks" do
     details_attributes:
     - keyword: "filters"
       content: "There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall."
-  - content: "Looking <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>."
+  - content: "<a href='Looking' class='action'>Looking</a> <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you <a href='feel' class='action'>feel</a> as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>."
     hit_points: 30
     details_attributes:
     - keyword: "peering"
@@ -155,23 +165,31 @@ YAML
   end
 
   def phrase
-    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_with_one_title
-    "Looking north or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "<<action \"Looking\">> north or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+  end
+
+  def phrase_with_codes
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you <<action \"feel\">> as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+  end
+
+  def phrase_with_one_code
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_yaml
 <<-YAML
-  - content: "Looking <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>."
+  - content: "<a href='Looking' class='action'>Looking</a> <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>."
     hit_points: 30
     details_attributes:
 YAML
   end
 
   def phrase_with_one_detail
-    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved { fossil }.|30|"
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def phrase_without_detail
@@ -209,19 +227,26 @@ YAML
   end
 
   def line_with_keywords
-    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
   end
 
   def line_with_one_keyword
-    "Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
+    "<<action \"Looking\">> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are peering out from the ribs of a well preserved <a class='keyword' href='fossil'>fossil</a>.|30|"
   end
 
   def line_with_titles
-    "Looking <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "<<action \"Looking\">> <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
   def line_with_one_title
-    "Looking north or <a class='title' href='south shoji'>south</a> you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+    "<<action \"Looking\">> north or <a class='title' href='south shoji'>south</a> you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
   end
 
+  def line_with_codes
+    "<a href='Looking' class='action'>Looking</a> [[north|tokonoma shoji]] or [[south|south shoji]] you <a href='feel' class='action'>feel</a> as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+  end
+
+  def line_with_one_code
+    "<a href='Looking' class='action'>Looking</a> [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|"
+  end
 end

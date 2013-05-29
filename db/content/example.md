@@ -16,7 +16,7 @@ The floor in each room is tiled by { eight } tatami. The whole hall has a slight
   eight: Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space.
 The light here is exclusively that which { filters } through the square rice paper panels on the east wall.|50|
   filters: There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall.
-Looking [[north|tokonoma shoji]] or [[south|south shoji]] you feel as though you are { peering } out from the ribs of a well preserved { fossil }.|30|
+<<action "Looking">> [[north|tokonoma shoji]] or [[south|south shoji]] you <<action "feel">> as though you are { peering } out from the ribs of a well preserved { fossil }.|30|
   peering: Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision.
   fossil: Even the plants are dead, in a sense: the gardens have not changed in decades, and every flower is exactly where is was last spring.
 At the [[north|tokonoma shoji]] end of the hall, past two more sliding screens, there is a small table set against glowing rice paper panels.|40|

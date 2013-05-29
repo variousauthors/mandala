@@ -9,6 +9,18 @@ $(function() {
     });
   });
 
+  $(document).on('click', '.passage a.choice', function(e) {
+    e.preventDefault();
+
+    $.get('/' + $(this).text(), function(data) {
+      $('.background').html(data);
+    });
+
+    $.get('/' + $(this).attr('href'), function(data) {
+      $('.passage').parent().html(data);
+    });
+  });
+
   $(document).on('click', '.passage a.keyword',  function(e) {
     e.preventDefault();
     var that = this;

@@ -52,7 +52,6 @@ namespace :content do
 
   def process_line(line)
     # escape quotes
-    line.gsub!('"', '\"')
     case line[0]
       when "#"
         process_as_title(line)
@@ -68,15 +67,16 @@ namespace :content do
 
 # this indentation is important!
 <<-YAML
-- title: "#{title.strip}"
+- title: "#{title.strip.gsub('"', '\"')}"
   phrases_attributes:
 YAML
   end
 
   def process_as_phrase(line)
-    # replace keywords and titles with html
+    # replace keywords, codes, and titles with html
     line = keywords_to_html(line)
     line = titles_to_html(line)
+    line = codes_to_html(line)
 
     if line.include?("class='keyword'") then
       detail_string = "details_attributes:"
@@ -87,9 +87,10 @@ YAML
     content = line.tr(hp[0], '')
     hp = hp[1]
 
+    
 # this indentation is important!
 <<-YAML
-  - content: "#{content.strip}"
+  - content: "#{content.strip.gsub('"', '\"')}"
     hit_points: #{hp}
     #{detail_string.to_s}
 YAML
@@ -102,9 +103,21 @@ YAML
 
 # this indentation is important!
 <<-YAML
-    - keyword: "#{keyword.strip}"
-      content: "#{content.strip}"
+    - keyword: "#{keyword.strip.gsub('"', '\"')}"
+      content: "#{content.strip.gsub('"', '\"')}"
 YAML
+  end
+
+  def codes_to_html(line)
+    codes = line.scan(/\<\<(.*?) ['"](.*?)['"]\>\>/)
+    return line unless codes
+
+    codes.each do |code|
+      action, text = code
+      line.gsub!(/\<\<#{action} "#{text}"\>\>/, "<a href='#{text.strip}' class='action'>#{text.strip}</a>")
+    end
+
+    line
   end
 
   def titles_to_html(line)
