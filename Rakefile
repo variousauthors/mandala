@@ -83,9 +83,9 @@ YAML
     end
 
     # get the hp from the back of the string
-    hp = line.match(/\|(\d*?)\|$/)
-    content = line.tr(hp[0], '')
-    hp = hp[1]
+    hp = line.match(/\|(\d*?)\|$/) || [nil, nil]
+    content = hp[0] ? line.tr(hp[0], '') : line
+    hp = hp[1] || ""
 
     
 # this indentation is important!

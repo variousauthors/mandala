@@ -2,6 +2,8 @@ class Phrase < ActiveRecord::Base
   attr_accessible :content, :hit_points, :blank, :details_attributes
   belongs_to :passage
 
+  before_create :default_values
+
   has_many :details
   accepts_nested_attributes_for :details
 
@@ -25,4 +27,10 @@ class Phrase < ActiveRecord::Base
     !self.blank && self.hit_points <= damage
   end
 
+  private
+
+  def default_values
+    self.hit_points ||= 1000
+
+  end
 end

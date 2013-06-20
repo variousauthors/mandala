@@ -37,6 +37,10 @@ describe "content rake tasks" do
         process_as_phrase(phrase).should eq phrase_yaml
       end
 
+      it "processes a phrase with no hitpoints" do
+        process_as_phrase(phrase_without_hit_points).should eq phrase_without_hit_points_yaml
+      end
+
       it "has four spaces on a new line when there are not details" do
         process_as_phrase(phrase_without_detail).should eq phrase_without_detail_yaml
       end
@@ -204,6 +208,17 @@ YAML
 YAML
   end
 
+  def phrase_without_hit_points
+    "One long hall, with a heigh ceiling of plane wood planks, is separated into four rooms by sliding shoji."
+  end
+
+  def phrase_without_hit_points_yaml
+<<-YAML
+  - content: "One long hall, with a heigh ceiling of plane wood planks, is separated into four rooms by sliding shoji."
+    hit_points: 
+    
+YAML
+  end
   def detail
     "peering: Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision."
   end
