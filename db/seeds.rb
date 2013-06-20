@@ -15,6 +15,7 @@
 File.open("db/seeds.yaml") do |yaml_file|
   seeds = YAML::load(yaml_file)
   seeds.each do |seed|
+    puts seed
     Passage.create!(seed)
   end
 

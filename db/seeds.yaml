@@ -9,6 +9,10 @@
   - content: "Needless to say, you feel terrible: the conversations going on around you swing back and forth between <a class='keyword' href='jargon'>jargon</a> and <a class='keyword' href='chatter'>chatter</a>."
     hit_points: 
     details_attributes:
+    - keyword: "chatter"
+      content: "unbearably banal conversations about the weather, or the food, or the house."
+    - keyword: "jargon"
+      content: "professionals estabilshing their intelligence by being incomprehensible."
   - content: "You feel as though you have not heard a single meaningful utterance since you stepped into the foyer."
     hit_points: 
     
@@ -24,10 +28,6 @@
   - content: "You step out of your chair and into the <a class='title' href='angle'>foyer</a>."
     hit_points: 
     
-    - keyword: "chatter"
-      content: "unbearably banal conversations about the weather, or the food, or the house."
-    - keyword: "jargon"
-      content: "professionals estabilshing their intelligence by being incomprehensible."
 - title: "caper double"
   phrases_attributes:
   - content: "At the top of the stairs, there is a corridor to <a class='title' href='candor'>your left</a>, and one to <a class='title' href='devil'>your right</a>, both lined with doors."
@@ -87,7 +87,7 @@
   - content: "Did your host mean \"right, at the top of the stairs\" or \"right at the top of the stairs\"? Did she mean these stairs, or all the stairs."
     hit_points: 
     
-  - content: "You stand paralyzed for a moment: none of these doors immediately says \"washroom\"."
+  - content: "You stand paralysed for a moment: none of these doors immediately says \"washroom\"."
     hit_points: 
     
   - content: "There is a smile on your face when you realize that you will have to try them all."
@@ -139,14 +139,14 @@
   - content: "The balcony itself is quite nice: elegant wooden poles support a white painted bannister."
     hit_points: 
     
-  - content: "The foyer down below is a dancefloor for the gently waving <a class='keyword' href='shadows'>shadows</a> slipping out of the dinning room."
+  - content: "The foyer down below is a dance-floor for the gently waving <a class='keyword' href='shadows'>shadows</a> slipping out of the dinning room."
     hit_points: 
     details_attributes:
+    - keyword: "shadows"
+      content: "somehow they far outshine their owners."
   - content: "Head back to the <a class='title' href='caper double'>top of the stairs</a>."
     hit_points: 
     
-    - keyword: "shadows"
-      content: "somehow they far outshine their owners."
 - title: "eager"
   phrases_attributes:
   - content: "You resolve to walk to the top of the stairs."
@@ -164,7 +164,7 @@
   - content: "The room at the top of the stairs is a large open area, divided not by walls but by function."
     hit_points: 
     
-  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a ricketty <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
+  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a rickety <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
     hit_points: 
     
   - content: "You can also walk <a class='title' href='caper double'>down the stairs</a> into the rest of the house."
@@ -175,7 +175,7 @@
   - content: "The room at the top of the stairs is a large open area, divided not by walls but by function."
     hit_points: 
     
-  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a ricketty <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
+  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a rickety <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
     hit_points: 
     
   - content: "You can also walk <a class='title' href='caper double'>down the stairs</a> into the rest of the house."
@@ -186,7 +186,7 @@
   - content: "You open the door and pull a dangling chain to turn on the lights (you will remember to turn them off again when you <a class='title' href='candor'>leave</a>, no doubt)."
     hit_points: 
     
-  - content: "This tiny room is a fully stocked pantry: there are boxes of healthy cereals, jams in jars, and a variety of dry goods and unperishables."
+  - content: "This tiny room is a fully stocked pantry: there are boxes of healthy cereals, jams in jars, and a variety of dry goods and nonperishable."
     hit_points: 
     
   - content: "There is also <a class='title' href='second home foyer powder'>a small door</a> beneath a shelf on the right side of the room, about a meter tall."
@@ -220,7 +220,7 @@
   - content: "Though it is small like a beer fridge, it turns out to be full not of beer, but of vegetables and sauces."
     hit_points: 
     
-  - content: "It looks like you could cook a nice stir-fry or stew with these ingrediants."
+  - content: "It looks like you could cook a nice stir-fry or stew with these ingredients."
     hit_points: 
     
   - content: "You wonder whether your food is getting cold, or whether anyone is beginning to wonder why you are taking so long."
@@ -260,7 +260,7 @@
   - content: "There are several computer monitors set up around a desk."
     hit_points: 
     
-  - content: "You doubt you will find any hints as to where the bathroom is, but all those darkenned monitors look like they really want to be woken up."
+  - content: "You doubt you will find any hints as to where the bathroom is, but all those darkened monitors look like they really want to be woken up."
     hit_points: 
     
   - content: "Touch <a class='title' href='devil brats amend'>the mouse</a>, maybe? There is a <a class='title' href='devil brats behold'>sliding door</a> on the right as you walk into the room."
@@ -288,12 +288,14 @@
   - content: "In spite of yourself, you step in to the room and crouch down to examine the doll house."
     hit_points: 
     
-  - content: "There is a modern doll perched on the roof, dangling its naked feet infront of one of the windows, but aside from that the house looks neglected."
+  - content: "There is a modern doll perched on the roof, dangling its naked feet in front of one of the windows, but aside from that the house looks neglected."
     hit_points: 
     
   - content: "The inside is dark; looking in through one of the windows reminds you of a <a class='keyword' href='childhood memory'>childhood memory</a>."
     hit_points: 
     details_attributes:
+    - keyword: "childhood memory"
+      content: "you found a mouse hole once when you were young, and could not help but stare into it, hoping for borrowers."
   - content: "After a moment, you leave the room and head back to the <a class='title' href='second home foyer narrow hallway'>hallway</a>."
     hit_points: 
     
@@ -311,16 +313,16 @@
   - content: "There are soccer trophies, some <a class='keyword' href='game machine'>game machine</a>, a variety of stuffed animals on the bed, and an <a class='title' href='candor bramble asp'>elaborate dollhouse</a>."
     hit_points: 
     details_attributes:
-  - content: "Standing here feels a little awkward, but afterall you are a bit of a <a class='keyword' href='voyeur'>voyeur</a>."
+    - keyword: "game machine"
+      content: "you know which one it is, but its not important."
+  - content: "Standing here feels a little awkward, but after all you are a bit of a <a class='keyword' href='voyeur'>voyeur</a>."
     hit_points: 
     details_attributes:
+    - keyword: "voyeur"
+      content: "you have always taken a special pleasure in stepping into the life of another for a moment; you imagine shouldering their burdens and fighting their battles, and somehow this makes you happy."
   - content: "After a moment you step back out into the <a class='title' href='candor'>hallway</a>."
     hit_points: 
     
-    - keyword: "game machine"
-      content: "you know which one it is, but its not important."
-    - keyword: "voyeur"
-      content: "you have always taken a special pleasure in stepping into the life of another for a moment; you imagine shouldering their burdens and fighting their battles, and somehow this makes you happy."
 - title: "eager beaver"
   phrases_attributes:
   - content: "The balcony is a little suspect."
@@ -329,7 +331,7 @@
   - content: "It trends downward, under the weight of patio furniture and a small barbeque."
     hit_points: 
     
-  - content: "There is enough space here to sit six, and a large umbrella is folded and leans agains the side of the building."
+  - content: "There is enough space here to sit six, and a large umbrella is folded and leans against the side of the building."
     hit_points: 
     
   - content: "Must be nice in the summer."
@@ -346,10 +348,10 @@
   - content: "You look around before giving the mouse a little nudge."
     hit_points: 
     
-  - content: "Monitors come to life, and the dimly lit room is awash with color."
+  - content: "Monitors come to life, and the dimly lit room is awash with colour."
     hit_points: 
     
-  - content: "It seems your host is host to an architect also, or maybe she is in the realestate business: the monitors feature floor plans to a variety of houses."
+  - content: "It seems your host is host to an architect also, or maybe she is in the real-estate business: the monitors feature floor plans to a variety of houses."
     hit_points: 
     
   - content: "There is a <a class='title' href='devil brats behold double'>sliding door</a> on the right as you walk into the room, but you can also step back into the <a class='title' href='devil'>hallway</a>."
@@ -383,11 +385,11 @@
   - content: "Everything is nicely organized, in some places even <a class='keyword' href='colour coordinated'>colour coordinated</a>, but you cannot help  but feel it is a poor use of space."
     hit_points: 
     details_attributes:
+    - keyword: "colour coordinated"
+      content: "who does that?"
   - content: "Not wanting to linger, you step back into the <a class='title' href='second home foyer mud room'>master bedroom</a>."
     hit_points: 
     
-    - keyword: "colour coordinated"
-      content: "who does that?"
 - title: "candor denver"
   phrases_attributes:
   - content: "This is clearly a master bedroom (perhaps the master bedroom)."
@@ -419,16 +421,16 @@
   - content: "Some of the paintings look to be the works of an <a class='keyword' href='amateur'>amateur</a>, and others of an enthusiastic <a class='keyword' href='child'>child</a>."
     hit_points: 
     details_attributes:
+    - keyword: "amateur"
+      content: "that is, they look like experiments in technique or explorations more than polished finished works. You have always preferred amateurs, which I suppose is why you are here now."
+    - keyword: "child"
+      content: "her subject mater is more mature, you feel."
   - content: "There are pots of paint on the ground."
     hit_points: 
     
   - content: "You spend a moment to appreciate the works, and only when you are sure the washroom is nowhere to be found in them do you turn back to consider the rest of the <a class='title' href='devil brats'>attic</a>."
     hit_points: 
     
-    - keyword: "amateur"
-      content: "that is, they look like experiments in technique or explorations more than polished finished works. You have always prefered amateurs, which I suppose is why you are here now."
-    - keyword: "child"
-      content: "her subject mater is more mature, you feel."
 - title: "candor eagle archer"
   phrases_attributes:
   - content: "You open the cabinet doors and find that they reveal a laundry shoot! The back of the cabinet has been cut away to reveal the little laundry shoot that must have been part of the original design."
@@ -506,7 +508,7 @@
     
 - title: "second home foyer morning room"
   phrases_attributes:
-  - content: "It is not morning, so the morning room is not operating at peak lovelyness (but you can imagine)."
+  - content: "It is not morning, so the morning room is not operating at peak loveliness (but you can imagine)."
     hit_points: 
     
   - content: "On the far side of the room as you walk in there is a small breakfast or luncheon table below a wide window."
@@ -515,7 +517,7 @@
   - content: "The left side of the room is completely open, with just a small step down into the <a class='title' href='second home foyer great room'>grand room</a>."
     hit_points: 
     
-  - content: "The right side of the room is, odly enough, a small (apparently well stocked) kitchen."
+  - content: "The right side of the room is, oddly enough, a small (apparently well stocked) kitchen."
     hit_points: 
     
   - content: "No doubt this is a modern addition; maybe there used to be a wall dividing the two."
@@ -526,7 +528,7 @@
     
 - title: "second home foyer small office"
   phrases_attributes:
-  - content: "Oh! This is not a storage room as you had asumed, but rather a small office! Kind of a dreadful little place: there are no windows on any of the walls, and the room is uncomfortably warm on account of several desktops."
+  - content: "Oh! This is not a storage room as you had assumed, but rather a small office! Kind of a dreadful little place: there are no windows on any of the walls, and the room is uncomfortably warm on account of several desktops."
     hit_points: 
     
   - content: "You have no clue what could motivate someone to spend their time in here, and so you step back into the <a class='title' href='devil brats behold'>mud room</a>."
@@ -537,7 +539,7 @@
   - content: "You are standing in a little pantry."
     hit_points: 
     
-  - content: "This pantry is stocked for prepairing meals, rather than for snacking and contains a freezer and a fridge, as well as shelves full of jars."
+  - content: "This pantry is stocked for preparing meals, rather than for snacking and contains a freezer and a fridge, as well as shelves full of jars."
     hit_points: 
     
   - content: "It looks like your host does some of their own pickling, as there are a number of jars full of lemons, carrots, beats, and such suspended in colourful liquids."
@@ -605,7 +607,7 @@
   - content: "The door <a class='title' href='second home foyer master bedroom'>up ahead</a> looks to be a bedroom, which gives you hope."
     hit_points: 
     
-  - content: "These older collonial houses often had washrooms attached to the master bedroom, you seem to recal."
+  - content: "These older colonial houses often had washrooms attached to the master bedroom, you seem to recal."
     hit_points: 
     
   - content: "You can also see the foyer down the <a class='title' href='second home foyer'>other end of the hallway</a>."
@@ -613,7 +615,7 @@
     
 - title: "second home foyer"
   phrases_attributes:
-  - content: "The foyer is a grand place, with a heigh ceiling and stained glass windows next to the door."
+  - content: "The foyer is a grand place, with a high ceiling and stained glass windows next to the door."
     hit_points: 
     
   - content: "A rug at the foot of a great staircase dominates the foyer."
@@ -667,7 +669,7 @@
   - content: "This is a master bedroom."
     hit_points: 
     
-  - content: "The bed is enormouse, and well made."
+  - content: "The bed is enormous, and well made."
     hit_points: 
     
   - content: "A grey curtain hangs over the back of it, and a long shock of grey fabric covers its foot."
@@ -696,13 +698,13 @@
   - content: "You push open the door and find yourself in a tight little office."
     hit_points: 
     
-  - content: "Everything in the office is conveniently within reach of a little wooden office chair in its center."
+  - content: "Everything in the office is conveniently within reach of a little wooden office chair in its centre."
     hit_points: 
     
   - content: "There is a curtained window to your left, and a little potted fern below that."
     hit_points: 
     
-  - content: "The desk that dominates much of the room looks like it aught to have a typewritter on it, but instead is home to a large laptop."
+  - content: "The desk that dominates much of the room looks like it aught to have a typewriter on it, but instead is home to a large laptop."
     hit_points: 
     
   - content: "There is a small shelf of books against the right wall."
@@ -728,7 +730,7 @@
   - content: "The dinning table is quite enormous, and round."
     hit_points: 
     
-  - content: "It almost looks too big for the room, with the chairs neatly tucked in and the table-cloth in a neutral color."
+  - content: "It almost looks too big for the room, with the chairs neatly tucked in and the table-cloth in a neutral colour."
     hit_points: 
     
   - content: "A <a class='title' href='second home foyer narrow hallway'>long narrow hallway</a> opposite the windows leads away from the dinning room, but you can also walk into the <a class='title' href='second home foyer'>foyer</a>."

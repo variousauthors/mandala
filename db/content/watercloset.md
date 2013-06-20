@@ -29,7 +29,7 @@ There is a corridor to [[your left|candor]], and one to [[your right|devil]], bo
 In addition, the stairs continue [[ahead of you|eager]], up to a third floor.
 You can hear the conversation now as a blurred murmur.
 Did your host mean "right, at the top of the stairs" or "right at the top of the stairs"? Did she mean these stairs, or all the stairs.
-You stand paralyzed for a moment: none of these doors immediately says "washroom".
+You stand paralysed for a moment: none of these doors immediately says "washroom".
 There is a smile on your face when you realize that you will have to try them all.
 There is no chance of you going back down without having found the washroom; imagine the brainless comments your company might make!
 Fate has given you this chance to avoid the party.
@@ -53,9 +53,9 @@ There are two doors on your right, a small simple looking [[door|candor arbor]],
 There is one [[door|candor denver]] on your left, past the balcony.
 There is a tall [[cabinet|candor eagle]] at the end of the hall.
 The balcony itself is quite nice: elegant wooden poles support a white painted bannister.
-The foyer down below is a dancefloor for the gently waving { shadows } slipping out of the dinning room.
-Head back to the [[top of the stairs|caper double]].
+The foyer down below is a dance-floor for the gently waving { shadows } slipping out of the dinning room.
   shadows: somehow they far outshine their owners.
+Head back to the [[top of the stairs|caper double]].
 
 
 
@@ -65,21 +65,21 @@ You ascend another flight, this one walled on both sides and with less old photo
 The walls of the staircase are hung with trophies from walks on the beach: they are out of place among the other paraphernalia you have seen.
 There are flat bits of dry driftwood, and smooth rocks on little shelves nailed into the wall.
 The room at the top of the stairs is a large open area, divided not by walls but by function.
-There is a [[small kitchen|eager aunt]], a ricketty [[door|eager beaver]] onto an outdoor balcony, and a [[small studio space|eager crabby]].
+There is a [[small kitchen|eager aunt]], a rickety [[door|eager beaver]] onto an outdoor balcony, and a [[small studio space|eager crabby]].
 You can also walk [[down the stairs|caper double]] into the rest of the house.
 
 
 
 #eager double
 The room at the top of the stairs is a large open area, divided not by walls but by function.
-There is a [[small kitchen|eager aunt]], a ricketty [[door|eager beaver]] onto an outdoor balcony, and a [[small studio space|eager crabby]].
+There is a [[small kitchen|eager aunt]], a rickety [[door|eager beaver]] onto an outdoor balcony, and a [[small studio space|eager crabby]].
 You can also walk [[down the stairs|caper double]] into the rest of the house.
 
 
 
 #candor arbor
 You open the door and pull a dangling chain to turn on the lights (you will remember to turn them off again when you [[leave|candor]], no doubt).
-This tiny room is a fully stocked pantry: there are boxes of healthy cereals, jams in jars, and a variety of dry goods and unperishables.
+This tiny room is a fully stocked pantry: there are boxes of healthy cereals, jams in jars, and a variety of dry goods and nonperishable.
 There is also [[a small door|second home foyer powder]] beneath a shelf on the right side of the room, about a meter tall.
 You presume it leads to storage beneath the stairs.
 
@@ -97,7 +97,7 @@ After exploring the kitchen you turn back to the [[rest of the room|eager double
 
 #beer fridge
 Though it is small like a beer fridge, it turns out to be full not of beer, but of vegetables and sauces.
-It looks like you could cook a nice stir-fry or stew with these ingrediants.
+It looks like you could cook a nice stir-fry or stew with these ingredients.
 You wonder whether your food is getting cold, or whether anyone is beginning to wonder why you are taking so long.
 If they come and ask, you think, you will just say you got lost.
 [[Stepping back from the fridge|eager aunt]] you wonder, "what will I say if they do not come looking?"
@@ -116,7 +116,7 @@ First though, you [[step back inside|eager double]].
 #devil brats
 This is clearly a study, or writing room.
 There are several computer monitors set up around a desk.
-You doubt you will find any hints as to where the bathroom is, but all those darkenned monitors look like they really want to be woken up.
+You doubt you will find any hints as to where the bathroom is, but all those darkened monitors look like they really want to be woken up.
 Touch [[the mouse|devil brats amend]], maybe? There is a [[sliding door|devil brats behold]] on the right as you walk into the room.
 You briefly consider not touching the mouse, and just stepping back into the [[hallway|devil]].
 
@@ -132,8 +132,9 @@ Maybe the librarian is out tonight? Knowing you do not have enough time to reall
 
 #candor bramble asp
 In spite of yourself, you step in to the room and crouch down to examine the doll house.
-There is a modern doll perched on the roof, dangling its naked feet infront of one of the windows, but aside from that the house looks neglected.
+There is a modern doll perched on the roof, dangling its naked feet in front of one of the windows, but aside from that the house looks neglected.
 The inside is dark; looking in through one of the windows reminds you of a { childhood memory }.
+  childhood memory: you found a mouse hole once when you were young, and could not help but stare into it, hoping for borrowers.
 After a moment, you leave the room and head back to the [[hallway|second home foyer narrow hallway]].
 
 
@@ -143,17 +144,17 @@ You step into a bedroom belonging to a child bedroom.
 There are posters of teenage rock idols and recent action movies, covering up wallpaper that was clearly chosen for a girl.
 The room is a mess, not in terms of clutter or things out of place, but rather in terms of the message.
 There are soccer trophies, some { game machine }, a variety of stuffed animals on the bed, and an [[elaborate dollhouse|candor bramble asp]].
-Standing here feels a little awkward, but afterall you are a bit of a { voyeur }.
-After a moment you step back out into the [[hallway|candor]].
   game machine: you know which one it is, but its not important.
+Standing here feels a little awkward, but after all you are a bit of a { voyeur }.
   voyeur: you have always taken a special pleasure in stepping into the life of another for a moment; you imagine shouldering their burdens and fighting their battles, and somehow this makes you happy.
+After a moment you step back out into the [[hallway|candor]].
 
 
 
 #eager beaver
 The balcony is a little suspect.
 It trends downward, under the weight of patio furniture and a small barbeque.
-There is enough space here to sit six, and a large umbrella is folded and leans agains the side of the building.
+There is enough space here to sit six, and a large umbrella is folded and leans against the side of the building.
 Must be nice in the summer.
 From here you can see the moon, in the east, and a great big guiding star.
 After pausing for a moment to enjoy the quiet night air, you [[step back into the attic|second home foyer great room]].
@@ -162,8 +163,8 @@ After pausing for a moment to enjoy the quiet night air, you [[step back into th
 
 #devil brats amend
 You look around before giving the mouse a little nudge.
-Monitors come to life, and the dimly lit room is awash with color.
-It seems your host is host to an architect also, or maybe she is in the realestate business: the monitors feature floor plans to a variety of houses.
+Monitors come to life, and the dimly lit room is awash with colour.
+It seems your host is host to an architect also, or maybe she is in the real-estate business: the monitors feature floor plans to a variety of houses.
 There is a [[sliding door|devil brats behold double]] on the right as you walk into the room, but you can also step back into the [[hallway|devil]].
 
 
@@ -181,8 +182,8 @@ You walk in to the enormous closet, feeling as though it might be hiding a secre
 Instead you find it to be filled with shirts, pants, dresses, and anything else that can be put on a hanger.
 On the floor there are a number of clear plastic boxes full of this and that.
 Everything is nicely organized, in some places even { colour coordinated }, but you cannot help  but feel it is a poor use of space.
-Not wanting to linger, you step back into the [[master bedroom|second home foyer mud room]].
   colour coordinated: who does that?
+Not wanting to linger, you step back into the [[master bedroom|second home foyer mud room]].
 
 
 #candor denver
@@ -199,10 +200,10 @@ After looking around for a moment, you turn to go back into the [[hallway|second
 The studio space consists of a nice big north facing window, and a number of easels set up with canvases in various stages of completion.
 One of the more complete works is an elaborate street scene set in the tree lined streets east of commercial: old houses and older trunks.
 Some of the paintings look to be the works of an { amateur }, and others of an enthusiastic { child }.
+  amateur: that is, they look like experiments in technique or explorations more than polished finished works. You have always preferred amateurs, which I suppose is why you are here now.
+  child: her subject mater is more mature, you feel.
 There are pots of paint on the ground.
 You spend a moment to appreciate the works, and only when you are sure the washroom is nowhere to be found in them do you turn back to consider the rest of the [[attic|devil brats]].
-  amateur: that is, they look like experiments in technique or explorations more than polished finished works. You have always prefered amateurs, which I suppose is why you are here now.
-  child: her subject mater is more mature, you feel.
 
 
 
@@ -252,24 +253,24 @@ You can also leave this room by passing through an [[arched traverse|second home
 
 
 #second home foyer morning room
-It is not morning, so the morning room is not operating at peak lovelyness (but you can imagine).
+It is not morning, so the morning room is not operating at peak loveliness (but you can imagine).
 On the far side of the room as you walk in there is a small breakfast or luncheon table below a wide window.
 The left side of the room is completely open, with just a small step down into the [[grand room|second home foyer great room]].
-The right side of the room is, odly enough, a small (apparently well stocked) kitchen.
+The right side of the room is, oddly enough, a small (apparently well stocked) kitchen.
 No doubt this is a modern addition; maybe there used to be a wall dividing the two.
 A [[hallway|second home foyer narrow hallway]] leads away from the kitchen parallel to a small [[arched traverse|second home foyer]] through which you can see the foyer.
 
 
 
 #second home foyer small office
-Oh! This is not a storage room as you had asumed, but rather a small office! Kind of a dreadful little place: there are no windows on any of the walls, and the room is uncomfortably warm on account of several desktops.
+Oh! This is not a storage room as you had assumed, but rather a small office! Kind of a dreadful little place: there are no windows on any of the walls, and the room is uncomfortably warm on account of several desktops.
 You have no clue what could motivate someone to spend their time in here, and so you step back into the [[mud room|devil brats behold]].
 
 
 
 #second home foyer pantry
 You are standing in a little pantry.
-This pantry is stocked for prepairing meals, rather than for snacking and contains a freezer and a fridge, as well as shelves full of jars.
+This pantry is stocked for preparing meals, rather than for snacking and contains a freezer and a fridge, as well as shelves full of jars.
 It looks like your host does some of their own pickling, as there are a number of jars full of lemons, carrots, beats, and such suspended in colourful liquids.
 Not much in the way of jerky or dried fruit.
 Now that you have taken stock, you feel ready to [[leave the pantry|second home foyer narrow hallway]].
@@ -305,13 +306,13 @@ A long hallway that ends with a door.
 The hallway is decorated with old portraits, but no photos...  you wonder how many relatives one family can have.
 There are portraits like these in your house too, but not as many.
 The door [[up ahead|second home foyer master bedroom]] looks to be a bedroom, which gives you hope.
-These older collonial houses often had washrooms attached to the master bedroom, you seem to recal.
+These older colonial houses often had washrooms attached to the master bedroom, you seem to recal.
 You can also see the foyer down the [[other end of the hallway|second home foyer]].
 
 
 
 #second home foyer
-The foyer is a grand place, with a heigh ceiling and stained glass windows next to the door.
+The foyer is a grand place, with a high ceiling and stained glass windows next to the door.
 A rug at the foot of a great staircase dominates the foyer.
 The stairs split halfway up, into a "T", and under each branch is an arched traverse into the rooms beyond.
 The stairs divide the room into left and right (facing the stairs): on the left there is a [[foggy glass paned double door|second home foyer office]], a [[hallway|second home foyer MB hallway]], and an [[arched traverse|second home foyer great room]] leading into what looks like a large relatively empty room; on the right there is a pair of [[french sliding doors|second home foyer dining room]], a [[small door|second home foyer powder]] with a picture hanging on it, and again an [[arched traverse|second home foyer morning room]] through which can be seen a kitchen of sorts.
@@ -339,7 +340,7 @@ There is no toilet here, but there is a [[small door|second home foyer pantry]] 
 
 #second home foyer master bedroom
 This is a master bedroom.
-The bed is enormouse, and well made.
+The bed is enormous, and well made.
 A grey curtain hangs over the back of it, and a long shock of grey fabric covers its foot.
 Below the foot of the bed is a pair of stools, each with a tiny pillow.
 You wonder whether anyone actually uses this room; if so, then they must hire cleaners.
@@ -352,9 +353,9 @@ However, there is also a promising looking [[door|second home foyer master bathr
 
 #second home foyer office
 You push open the door and find yourself in a tight little office.
-Everything in the office is conveniently within reach of a little wooden office chair in its center.
+Everything in the office is conveniently within reach of a little wooden office chair in its centre.
 There is a curtained window to your left, and a little potted fern below that.
-The desk that dominates much of the room looks like it aught to have a typewritter on it, but instead is home to a large laptop.
+The desk that dominates much of the room looks like it aught to have a typewriter on it, but instead is home to a large laptop.
 There is a small shelf of books against the right wall.
 Mostly these are reference material: Whoever sits in this office is interested comparative law, and aboriginal title in particular.
 Satisfied, you head back to the [[foyer|candor bramble]].
@@ -366,8 +367,5 @@ This dinning room is far too big, and fortunately it is empty.
 You would hate to wander back into the dining room you had left, without finding the washroom.
 There are a number of windows on the west side of the room, cleverly placed so as to maximize daylight.
 The dinning table is quite enormous, and round.
-It almost looks too big for the room, with the chairs neatly tucked in and the table-cloth in a neutral color.
+It almost looks too big for the room, with the chairs neatly tucked in and the table-cloth in a neutral colour.
 A [[long narrow hallway|second home foyer narrow hallway]] opposite the windows leads away from the dinning room, but you can also walk into the [[foyer|second home foyer]].
-
-
-
