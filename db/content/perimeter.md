@@ -1,9 +1,11 @@
-#long hall deck garden entrance
-You are standing in the center of a narrow wooden deck pressed between the side of a gorgeous old Japanese { house }, and a stunning walled { garden }.|500|
-  house: Most of the house is off limits. It has not been lived in for decades, and is now more of a cultural relic.
-  garden: The pond is the attraction.
-The deck is not completely open: where you are standing there is a small plain step down into the [ garden | mossy checker-board ].|100|
-It is mostly fenced off from the garden by tightly spaced beams of a slightly lighter wood tone than the floor.|200|
-Cast against these beams, the sunlight is split into shafts that paint the deck, and the west wall of the house.|200|
-The [ garden | mossy checker-board ] is dominated by a pond in the center, and two handsome old trees growing in the south-east corner.|200|
-The deck continues [ north | long hall deck northeast ] and [ south | long hall deck south ], between the wooden beams and the pale rice paper walls, all along the side of the old house, until it runs into the garden wall on both sides.|500|
+#dinning table
+Only after carefully weighing the competing social pressures did you finally accept the invitation to dinner tonight.
+That is to say, you did not want to come but... well these things have a way of drawing you in.
+Needless to say, you feel terrible: the conversations going on around you swing back and forth between { jargon } and { chatter }.
+You feel as though you have not heard a single meaningful utterance since you stepped into the foyer.
+"Excuse me," you say, "may I ask directions to the washroom?"
+"Oh of course! Right at the top of the stairs, my dear fellow."
+This at least will give you a moment to breath, put water on your face, and massage the muscles of your jaw.
+You step out of your chair and into the [[foyer|angle]].
+  chatter: unbearably banal conversations about the weather, or the food, or the house.
+  jargon: professionals estabilshing their intelligence by being incomprehensible.

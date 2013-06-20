@@ -1,459 +1,736 @@
-- title: "long hall deck garden entrance"
+- title: "dinning table"
   phrases_attributes:
-  - content: "You are standing in the center of a narrow wooden deck pressed between the side of a gorgeous old Japanese <a class='keyword' href='house'>house</a>, and a stunning walled <a class='keyword' href='garden'>garden</a>."
-    hit_points: 500
+  - content: "Only after carefully weighing the competing social pressures did you finally accept the invitation to dinner tonight."
+    hit_points: 
+    
+  - content: "That is to say, you did not want to come but... well these things have a way of drawing you in."
+    hit_points: 
+    
+  - content: "Needless to say, you feel terrible: the conversations going on around you swing back and forth between <a class='keyword' href='jargon'>jargon</a> and <a class='keyword' href='chatter'>chatter</a>."
+    hit_points: 
     details_attributes:
-    - keyword: "house"
-      content: "Most of the house is off limits. It has not been lived in for decades, and is now more of a cultural relic."
-    - keyword: "garden"
-      content: "The pond is the attraction."
-  - content: "The deck is not completely open: where you are standing there is a small plain step down into the <a class='title' href='mossy checker-board'>garden</a>."
-    hit_points: 100
+  - content: "You feel as though you have not heard a single meaningful utterance since you stepped into the foyer."
+    hit_points: 
     
-  - content: "It is mostly fenced off from the garden by tightly spaced beams of a slightly lighter wood tone than the floor."
-    hit_points: 200
+  - content: "\"Excuse me,\" you say, \"may I ask directions to the washroom?\""
+    hit_points: 
     
-  - content: "Cast against these beams, the sunlight is split into shafts that paint the deck, and the west wall of the house."
-    hit_points: 200
+  - content: "\"Oh of course! Right at the top of the stairs, my dear fellow.\""
+    hit_points: 
     
-  - content: "The <a class='title' href='mossy checker-board'>garden</a> is dominated by a pond in the center, and two handsome old trees growing in the south-east corner."
-    hit_points: 200
+  - content: "This at least will give you a moment to breath, put water on your face, and massage the muscles of your jaw."
+    hit_points: 
     
-  - content: "The deck continues <a class='title' href='long hall deck northeast'>north</a> and <a class='title' href='long hall deck south'>south</a>, between the wooden beams and the pale rice paper walls, all along the side of the old house, until it runs into the garden wall on both sides."
-    hit_points: 500
+  - content: "You step out of your chair and into the <a class='title' href='angle'>foyer</a>."
+    hit_points: 
     
-- title: "solution"
+    - keyword: "chatter"
+      content: "unbearably banal conversations about the weather, or the food, or the house."
+    - keyword: "jargon"
+      content: "professionals estabilshing their intelligence by being incomprehensible."
+- title: "caper double"
   phrases_attributes:
-  - content: "this is the <a class='keyword' href='answer'>answer</a>"
-    hit_points: 20
-    details_attributes:
-    - keyword: "answer"
-      content: "it might not be a good one"
-  - content: "this is all we have"
-    hit_points: 30
+  - content: "At the top of the stairs, there is a corridor to <a class='title' href='candor'>your left</a>, and one to <a class='title' href='devil'>your right</a>, both lined with doors."
+    hit_points: 
     
-  - content: "go back to <a class='title' href='another room'>the beginning</a>"
-    hit_points: 100
+  - content: "In addition, the stairs continue <a class='title' href='eager'>ahead of you</a>, up to a third floor."
+    hit_points: 
     
-- title: "another room"
+  - content: "You can hear the conversation now as a blurred murmur, but there is little chance of you joining them now."
+    hit_points: 
+    
+- title: "angle"
   phrases_attributes:
-  - content: "with text <a class='keyword' href='values'>values</a>"
-    hit_points: 100
-    details_attributes:
-    - keyword: "values"
-      content: "ever so valuable"
-- title: "south shoji"
+  - content: "The foyer itself is small and of little interest."
+    hit_points: 
+    
+  - content: "There is a carpet, a closet where you believe your jacket might be, and a <a class='title' href='brunt'>staircase</a> to the interior balcony, the second floor, and presumably, the washroom."
+    hit_points: 
+    
+  - content: "There are a number of other doors and hallways leading away to rooms that do not interest you."
+    hit_points: 
+    
+  - content: "The stairs will put the most matter between you and the conversations going on behind you."
+    hit_points: 
+    
+- title: "brunt"
   phrases_attributes:
-  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
-    hit_points: 250
+  - content: "On your way up the stairs, you pause to admire the myriad photos and portraits."
+    hit_points: 
     
-  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
-    hit_points: 100
-    details_attributes:
-    - keyword: "eight"
-      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
-  - content: "Standing in the southern room and looking north feels like being in a ribbed train <a class='keyword' href='tunnel'>tunnel</a>."
-    hit_points: 50
-    details_attributes:
-    - keyword: "tunnel"
-      content: "the rooms in the center of the hall are intentionally darker than those at the end, so no matter where you stand you have the impression of being deep inside, looking out."
-  - content: "Bright light from the deck falls in harsh shafts through the <a class='title' href='long hall deck south'>south-east door</a>."
-    hit_points: 250
+  - content: "Some of these photos must be as old as photography."
+    hit_points: 
     
-  - content: "A softer light filters though the square rice paper panels of the east wall."
-    hit_points: 30
+  - content: "The drawn portraits show you more than photos: not just how people were but how they were meant to be."
+    hit_points: 
     
-  - content: "The room is dominated by the view <a class='title' href='middle shoji'>north</a>, room after room of sliding panels capped by an unassuming low table."
-    hit_points: 100
+  - content: "You imagine the conversations they must have had with each-other, the steps on this staircase."
+    hit_points: 
     
-  - content: "However, the opaque pale beige <a class='keyword' href='screens'>screens</a> that separate each room, and adorn the west wall, also tug at your attention."
-    hit_points: 20
-    details_attributes:
-    - keyword: "screens"
-      content: "Each screen was delicately painted with some natural seen; some of the paintings are hundreds of years old and are faded beyond recognition."
-- title: "middle shoji"
+  - content: "Soon you are standing at the <a class='title' href='caper'>top of the stairs</a>."
+    hit_points: 
+    
+- title: "caper"
   phrases_attributes:
-  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
-    hit_points: 100
+  - content: "At the top of the stairs you are momentarily confused."
+    hit_points: 
     
-  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
-    hit_points: 50
-    details_attributes:
-    - keyword: "eight"
-      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
-  - content: "The light here is exclusively that which <a class='keyword' href='filters'>filters</a> through the square rice paper panels on the east wall."
-    hit_points: 50
-    details_attributes:
-    - keyword: "filters"
-      content: "There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall."
-  - content: "Looking <a class='title' href='tokonoma shoji'>north</a> or <a class='title' href='south shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='peering'>peering</a>."
-    hit_points: 30
-    details_attributes:
-    - keyword: "peering"
-      content: "Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision."
-    - keyword: "fossil"
-      content: "Even the plants are dead, in a sense: the gardens have not changed in decades, and every flower is exactly where is was last spring."
-  - content: "At the <a class='title' href='tokonoma shoji'>north</a> end of the hall, past two more sliding screens, there is a small table set against glowing rice paper panels."
-    hit_points: 40
+  - content: "There is a corridor to <a class='title' href='candor'>your left</a>, and one to <a class='title' href='devil'>your right</a>, both lined with doors."
+    hit_points: 
     
-  - content: "Painted on the opaque beige shoji making up the western wall is a seen of a whether worn <a class='keyword' href='coast'>coast</a>."
-    hit_points: 20
-    details_attributes:
-    - keyword: "coast"
-      content: "You can barely make out the outline of a boat, sailing away."
-- title: "tokonoma shoji"
+  - content: "In addition, the stairs continue <a class='title' href='eager'>ahead of you</a>, up to a third floor."
+    hit_points: 
+    
+  - content: "You can hear the conversation now as a blurred murmur."
+    hit_points: 
+    
+  - content: "Did your host mean \"right, at the top of the stairs\" or \"right at the top of the stairs\"? Did she mean these stairs, or all the stairs."
+    hit_points: 
+    
+  - content: "You stand paralyzed for a moment: none of these doors immediately says \"washroom\"."
+    hit_points: 
+    
+  - content: "There is a smile on your face when you realize that you will have to try them all."
+    hit_points: 
+    
+  - content: "There is no chance of you going back down without having found the washroom; imagine the brainless comments your company might make!"
+    hit_points: 
+    
+  - content: "Fate has given you this chance to avoid the party."
+    hit_points: 
+    
+  - content: "You go looking for the washroom."
+    hit_points: 
+    
+- title: "devil"
   phrases_attributes:
-  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
-    hit_points: 100
+  - content: "You turn to face down the hallway to your right."
+    hit_points: 
     
-  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
-    hit_points: 50
-    details_attributes:
-    - keyword: "eight"
-      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
-  - content: "The light here is exclusively that which <a class='keyword' href='filters'>filters</a> through the square rice paper panels on the east wall."
-    hit_points: 50
-    details_attributes:
-    - keyword: "filters"
-      content: "There is no artificial light, and at night the hall is pitch black. Few people know this, because no one really uses the hall."
-  - content: "Looking <a class='title' href='small table shoji'>north</a> or <a class='title' href='middle shoji'>south</a> you feel as though you are <a class='keyword' href='peering'>peering</a> out from the ribs of a well preserved <a class='keyword' href='peering'>peering</a>."
-    hit_points: 30
-    details_attributes:
-    - keyword: "peering"
-      content: "Here, near the middle of the long hall, the light is very dim. The bright lights at either end play tricks on your night-vision."
-    - keyword: "fossil"
-      content: "Even the plants are dead, in a sense: the gardens have not changed in decades, and every flower is exactly where is was last spring."
-  - content: "At the <a class='title' href='tokonoma shoji'>north</a> end of the hall, past another more sliding screen, there is a small table set against glowing rice paper panels."
-    hit_points: 40
+  - content: "The right wall of the hallway is lined with family photos of a more contemporary kind: graduation photos, children with their dogs, a father holding his newborn daughter."
+    hit_points: 
     
-  - content: "In the south-west corner of the room there is a tiny <a class='keyword' href='tokonoma'>tokonoma</a>, half as high as a man, inset into the wall."
-    hit_points: 20
-    details_attributes:
-    - keyword: "tokonoma"
-      content: "There is a tiny red flower in a grown clay vase, pushed back into the corner of the tokonoma. On the wall hangs a scroll, depicting a peasant working in a potato field."
-  - content: "Unlike the rest of these rooms, the west wall is not made of opaque beige painted screens. It is humble, earthy clay and old wood."
-    hit_points: 15
+  - content: "At the end of the hallway, there is a <a class='title' href='devil arts'>glass door</a> out to a raised terrace."
+    hit_points: 
     
-  - content: "A single raw branch of dark wood is set into the wall, and separates the right and left side of the wall."
-    hit_points: 10
+  - content: "On your left, closer to the stairs, is a wooden <a class='title' href='devil brats'>door</a>."
+    hit_points: 
     
-- title: "small table shoji"
+  - content: "Turn back to the <a class='title' href='caper double'>top of the stairs</a>."
+    hit_points: 
+    
+- title: "candor"
   phrases_attributes:
-  - content: "One long hall, with a high ceiling of plain wood planks, is separated into four rooms by sliding shoji."
-    hit_points: 250
+  - content: "You turn to face the hallway on your left."
+    hit_points: 
     
-  - content: "The floor in each room is tiled by <a class='keyword' href='eight'>eight</a> tatami. The whole hall has a slight odor of dry grass."
-    hit_points: 100
+  - content: "The hallways is lined with doors."
+    hit_points: 
+    
+  - content: "There are two doors on your right, a small simple looking <a class='title' href='candor arbor'>door</a>, and a <a class='title' href='candor bramble'>door</a> with a poster hung on it."
+    hit_points: 
+    
+  - content: "There is one <a class='title' href='candor denver'>door</a> on your left, past the balcony."
+    hit_points: 
+    
+  - content: "There is a tall <a class='title' href='candor eagle'>cabinet</a> at the end of the hall."
+    hit_points: 
+    
+  - content: "The balcony itself is quite nice: elegant wooden poles support a white painted bannister."
+    hit_points: 
+    
+  - content: "The foyer down below is a dancefloor for the gently waving <a class='keyword' href='shadows'>shadows</a> slipping out of the dinning room."
+    hit_points: 
     details_attributes:
-    - keyword: "eight"
-      content: "Two tatami run lengthwise in the center of the room. They are capped by a tatami on either end. Four tatami flank the space."
-  - content: "Standing in the northern room and looking <a class='title' href='tokonoma shoji'>south</a> feels like staring at a mise en abyme, echoing the same minimalist aesthetic again and again."
-    hit_points: 100
+  - content: "Head back to the <a class='title' href='caper double'>top of the stairs</a>."
+    hit_points: 
     
-  - content: "In the center of the room is a low, flat table made of smooth, dark wood."
-    hit_points: 75
-    
-  - content: "On either side of the table there is a cushion, laying on the tatami."
-    hit_points: 40
-    
-  - content: "There is a bowl in the center of the table, blue and white painted <a class='keyword' href='china'>china</a>."
-    hit_points: 30
-    details_attributes:
-    - keyword: "china"
-      content: "The light from the door catches elegantly on the small ceramic dish."
-  - content: "The table is set with two simple rough pieces of cloth, one on the west and one on the east."
-    hit_points: 25
-    
-  - content: "On each piece of cloth there is a chopstick stand and two chopsticks."
-    hit_points: 20
-    
-  - content: "Beside the chopsticks, there is a tiny flat cup barely half an ounce."
-    hit_points: 15
-    
-  - content: "Actually, one of the cushions looks to have been sat in recently."
-    hit_points: 10
-    
-  - content: "And in the other, there is a young man. You did not notice him before entering the room."
-    hit_points: 6
-    
-  - content: "When he sees you he stands up immediately. His smile is warm."
-    hit_points: 4
-    
-  - content: "\"おかえり。\" he says, smiling for just a moment."
-    hit_points: 2
-    
-  - content: "Light pours into this room, from a door in the <a class='title' href='long hall deck northeast'>south-east</a> corner."
-    hit_points: 250
-    
-  - content: "The sun shinning in from the south-east is a grid of light and shadow."
-    hit_points: 40
-    
-  - content: "Thin rice paper panels make up the north and east walls, and there is an open sliding screen in the <a class='title' href='north garden view'>north-west</a> corner."
-    hit_points: 50
-    
-- title: "north garden view"
+    - keyword: "shadows"
+      content: "somehow they far outshine their owners."
+- title: "eager"
   phrases_attributes:
-  - content: "There is a room behind the <a class='title' href='small table shoji'>long hall</a> that overlooks a second <a class='keyword' href='garden'>garden</a>."
-    hit_points: 50
-    details_attributes:
-    - keyword: "garden"
-      content: "This one is not fenced in, though. A pond marks the end of it, unofficially."
-  - content: "The north wall of this intimate room is dominated by a swirling landscape of color <a class='keyword' href='squeezed'>squeezed</a> between pale white sliding doors."
-    hit_points: 25
-    details_attributes:
-    - keyword: "squeezed"
-      content: "And a pale white."
-  - content: "Just <a class='title' href='second garden'>outside</a> there is a small deck, made of a light <a class='keyword' href='wood'>wood</a> different from the other decks."
-    hit_points: 15
-    details_attributes:
-    - keyword: "wood"
-      content: "And pale white planks."
-  - content: "Overhanging the deck is a gnarly old <a class='keyword' href='pine'>pine</a> tree, which lists to the left."
-    hit_points: 20
-    details_attributes:
-    - keyword: "pine"
-      content: "There are no pine needles on the deck though."
-  - content: "The arms of the pine tree stretch out over a small, well combed sand garden."
-    hit_points: 20
+  - content: "You resolve to walk to the top of the stairs."
+    hit_points: 
     
-  - content: "In the garden there are mossy stones drifting between the waves of diffuse beige sand."
-    hit_points: 15
+  - content: "You ascend another flight, this one walled on both sides and with less old photos."
+    hit_points: 
     
-  - content: "The sand garden borders a tiny <a class='keyword' href='shallow'>shallow</a> pool, fed from the surrounding forest."
-    hit_points: 10
-    details_attributes:
-    - keyword: "shallow"
-      content: "It is so reflective that squeezes the trees and hills beyond up against the sky."
-  - content: "A child is sitting on the deck, playing a <a class='keyword' href='flute'>flute</a> poorly. Her legs dangle into the garden."
-    hit_points: 6
-    details_attributes:
-    - keyword: "flute"
-      content: "Or maybe she is playing well, but in a way that you fail to appreciate?"
-  - content: "The beige and blue landscape of the garden is pressed flat by the forest and hills beyond."
-    hit_points: 25
+  - content: "The walls of the staircase are hung with trophies from walks on the beach: they are out of place among the other paraphernalia you have seen."
+    hit_points: 
     
-  - content: "Bright red and orange flowers, or wild fruit bearing trees, growing out there forever beyond our control."
-    hit_points: 25
+  - content: "There are flat bits of dry driftwood, and smooth rocks on little shelves nailed into the wall."
+    hit_points: 
     
-- title: "second garden"
+  - content: "The room at the top of the stairs is a large open area, divided not by walls but by function."
+    hit_points: 
+    
+  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a ricketty <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
+    hit_points: 
+    
+  - content: "You can also walk <a class='title' href='caper double'>down the stairs</a> into the rest of the house."
+    hit_points: 
+    
+- title: "eager double"
   phrases_attributes:
-  - content: "The air here is cold, there is a <a class='keyword' href='breeze'>breeze</a>. It was much warmer <a class='title' href='north garden view'>inside</a>."
-    hit_points: 15
-    details_attributes:
-    - keyword: "breeze"
-      content: "Maybe you should move back inside?"
-  - content: "The second garden is more of a back yard. It is more a thing of accidental beauty than the garden guests are shown."
-    hit_points: 10
+  - content: "The room at the top of the stairs is a large open area, divided not by walls but by function."
+    hit_points: 
     
-  - content: "The little girl looks up at you as you approach. She considers you gravely."
-    hit_points: 6
+  - content: "There is a <a class='title' href='eager aunt'>small kitchen</a>, a ricketty <a class='title' href='eager beaver'>door</a> onto an outdoor balcony, and a <a class='title' href='eager crabby'>small studio space</a>."
+    hit_points: 
     
-  - content: "\"てんぐ、ね？\" she says sympathetically, pointing at her nose."
-    hit_points: 4
+  - content: "You can also walk <a class='title' href='caper double'>down the stairs</a> into the rest of the house."
+    hit_points: 
     
-  - content: "\"はい\", the girl mumbles as she reaches into her sode and produces a tiny <a class='keyword' href='candy'>candy</a>, wrapped in colorful foil. \"これ、あげるから\" she smiles, handing you the candy."
-    hit_points: 2
-    details_attributes:
-    - keyword: "candy"
-      content: "It is orange flavor."
-- title: "long hall deck south"
+- title: "candor arbor"
   phrases_attributes:
-  - content: "What you can see of the garden, between the beams of wood that fence in the deck, is broken down into a barcode of <a class='keyword' href='blue'>blue</a> and brown."
-    hit_points: 500
-    details_attributes:
-    - keyword: "blue"
-      content: "You can barely resolve any single shape. The most distinct feature, from this perspective, is the blue sky."
-  - content: "Though the effect of the beams is clever, it is also <a class='keyword' href='claustrophobic'>claustrophobic</a>."
-    hit_points: 100
-    details_attributes:
-    - keyword: "claustrophobic"
-      content: "There are obvious parallels to be made."
-  - content: "If you press your face up against the beams, you can <a class='keyword' href='feel'>feel</a> as though they are not there."
-    hit_points: 50
-    details_attributes:
-    - keyword: "feel"
-      content: "You feel the warm wood press against your cheeks."
-  - content: "The deck feels like an uncomfortable place half-way <a class='keyword' href='between'>between</a> the house and garden."
-    hit_points: 25
-    details_attributes:
-    - keyword: "between"
-      content: "Some people feel comfortable with their backs to the wall."
-  - content: "It continues <a class='title' href='long hall deck garden entrance'>north</a>, where you can see the beams give way and there is a step down into the garden."
-    hit_points: 500
+  - content: "You open the door and pull a dangling chain to turn on the lights (you will remember to turn them off again when you <a class='title' href='candor'>leave</a>, no doubt)."
+    hit_points: 
     
-  - content: "There is also sliding screen door here that opens into the <a class='title' href='south shoji'>interior</a> of the house. An empty room with painted walls."
-    hit_points: 200
+  - content: "This tiny room is a fully stocked pantry: there are boxes of healthy cereals, jams in jars, and a variety of dry goods and unperishables."
+    hit_points: 
     
-- title: "long hall deck northeast"
-  phrases_attributes:
-  - content: "What you can see of the garden, between the beams of wood that fence in the deck, is broken down into a barcode of <a class='keyword' href='green'>green</a> and brown."
-    hit_points: 500
-    details_attributes:
-    - keyword: "green"
-      content: "You can barely resolve any single shape. The most distinct feature, from this perspective, is the mossy green landscape."
-  - content: "Though the effect of the beams is clever, it is also <a class='keyword' href='claustrophobic'>claustrophobic</a>."
-    hit_points: 100
-    details_attributes:
-    - keyword: "claustrophobic"
-      content: "You can not help but wonder what the deck looks like from the garden."
-  - content: "If you press your face up against the beams, you can <a class='keyword' href='feel'>feel</a> as though they are not there."
-    hit_points: 50
-    details_attributes:
-    - keyword: "feel"
-      content: "You feel the warm sun on your forehead."
-  - content: "The deck feels like an uncomfortable place half-way <a class='keyword' href='between'>between</a> the house and garden."
-    hit_points: 25
-    details_attributes:
-    - keyword: "between"
-      content: "If you are not careful, you might end up trapped here by indecision."
-  - content: "It continues <a class='title' href='long hall deck garden entrance'>south</a>, where you can see the beams give way and there is a step down into the garden."
-    hit_points: 500
+  - content: "There is also <a class='title' href='second home foyer powder'>a small door</a> beneath a shelf on the right side of the room, about a meter tall."
+    hit_points: 
     
-  - content: "There is also sliding screen door here that opens into the <a class='title' href='small table shoji'>interior</a> of the house. A small room with a low wooden table."
-    hit_points: 250
-
-- title: 'mossy checker-board'
+  - content: "You presume it leads to storage beneath the stairs."
+    hit_points: 
+    
+- title: "eager aunt"
   phrases_attributes:
-  - content: 'The ground here is a green and grey checker-board.'
-    hit_points: 150
-  - content: 'Grey squares are old stone, worn smooth by many feet.'
-    hit_points: 100
-  - content: 'There is a <a class="title" href="long hall deck garden entrance">step</a> up onto the deck here, and back into the old Japanese house.'
-    hit_points: 200
-  - content: 'Between the stones are squares of soft <a class="keyword" href="green">green</a> <a class="keyword" href="moss">moss</a>.'
-    hit_points: 20
-    details_attributes:
-    - keyword: 'green'
-      content: 'Pale glowing green that rises from the moss like steam off a cup of tea.'
-    - keyword: 'moss'
-      content: 'Some moss is so delicate that the humidity of an animals breath is enough to doom it.'
-  - content: 'The closer you get to the <a class="keyword" href="pond">pond</a> at the center of the garden, the less you can tell the difference between grey and green.'
-    hit_points: 200
-    details_attributes:
-    - keyword: 'pond'
-      content: 'The pond is the attraction. The blue of the sky slipping between the branches and the green of the thick algae below blend into a calming grey. One old fish makes its way lazily around, without a ripple.'
-  - content: 'The surface of the pond is <a class="keyword" href="dappled">dappled</a> pink and white.'
-    hit_points: 35
-    details_attributes:
-    - keyword: 'dappled'
-      content: 'The floating leaves of plum and cherry blossom. There are only a few weeks of the year when such bright colors infiltrate the smokey earth tones.'
-  - content: 'Two <a class="keyword" href="handsome">handsome</a> trees stand on the other side of the pond.'
-    hit_points: 100
-    details_attributes:
-    - keyword: 'handsome'
-      content: 'The plum tree grows straight as an arrow up to the high of a man, before its branches suddenly spring out in all directions.'
-  - content: 'One of them is ornamental plum, and the other is <a class="keyword" href="stooped">stooped</a> cherry tree.'
-    hit_points: 45
-    details_attributes:
-    - keyword: 'stooped'
-      content: 'The cherry tree is lop-sided and uncertain. It grew mainly west for 50 years, but now its branches are so long that they dip into the water here and there.'
-  - content: 'You can reach the trees if you walk <a class="title" href="an old woman raking leaves">south</a> around the pond.'
-    hit_points: 30
-  - content: 'If you walk <a class="title" href="large flat stone">east</a>, there is a large flat relaxing by the water.'
-    hit_points: 100
-- title: 'large flat stone'
+  - content: "The little kitchen looks to have been made for smaller people."
+    hit_points: 
+    
+  - content: "There is a stool here for a small person to reach the cabinets."
+    hit_points: 
+    
+  - content: "On your left there is a sink, and a rack of drying dishes; on your right there is a [[beer fridge]]."
+    hit_points: 
+    
+  - content: "Between the two sides of the kitchen, on the wall opposite the stairs, there is a window that overlooks a chimney."
+    hit_points: 
+    
+  - content: "There is clearly no washroom here: you are drawn by unabashed curiosity."
+    hit_points: 
+    
+  - content: "After exploring the kitchen you turn back to the <a class='title' href='eager double'>rest of the room</a>."
+    hit_points: 
+    
+- title: "beer fridge"
   phrases_attributes:
-  - content: 'The stone is rough, and lies half in the water. It is as long as a man, <a class="keyword" href="reclining">reclining</a>.'
-    hit_points: 100
-    details_attributes:
-    - keyword: 'reclining'
-      content: 'Vaguely, it resembles an aging tiger by the edge of a watering whole.'
-  - content: 'There are long cracks in it, and deep <a class="keyword" href="curves">curves</a> wherever it touches the water.'
-    hit_points: 40
-    details_attributes:
-    - keyword: 'curves'
-      content: 'They fill gradually with soft, sticky petals which drift in from the pond.'
-  - content: 'Almost no waves now, but once perhaps the pond was teaming with fish and their <a class="keyword" href="dances">dances</a> dug holes in the tiger\''s side.'
-    hit_points: 20
-    details_attributes:
-    - keyword: 'dances'
-      content: 'The one old fish that swims here is alone, and his dance is more precise and practiced than it is lively.'
-  - content: 'Between some of the cracks, tiny plants are ignored by <a class="keyword" href="generous">generous</a> gardeners.'
-    hit_points: 10
-    details_attributes:
-    - keyword: 'generous'
-      content: 'You get the sense that nothing in the garden is allowed to be out of place. Everything is meticulously combed.'
-  - content: 'A scarcity of <a class="keyword" href="petals">petals</a> have alighted on the <a class="title" href="two handsome trees">south</a> face of the rock.'
-    hit_points: 100
-    details_attributes:
-    - keyword: 'petals'
-      content: 'Some of them, steeped in filtered pink light, have dried and are stuck to the rock like the label on an apple.'
-  - content: 'The <a class="title" href="mossy checker-board">east</a> side of the rock is being invaded by moss, which has <a class="keyword" href="crept">crept</a> its way across the edge of the pond.'
-    hit_points: 100
-    details_attributes:
-    - keyword: 'crept'
-      content: 'The moss naturally goes where it will not be a center-piece or a spectacle. It does not delight in out affection.'
-- title: 'two handsome trees'
+  - content: "Though it is small like a beer fridge, it turns out to be full not of beer, but of vegetables and sauces."
+    hit_points: 
+    
+  - content: "It looks like you could cook a nice stir-fry or stew with these ingrediants."
+    hit_points: 
+    
+  - content: "You wonder whether your food is getting cold, or whether anyone is beginning to wonder why you are taking so long."
+    hit_points: 
+    
+  - content: "If they come and ask, you think, you will just say you got lost."
+    hit_points: 
+    
+  - content: "<a class='title' href='eager aunt'>Stepping back from the fridge</a> you wonder, \"what will I say if they do not come looking?\""
+    hit_points: 
+    
+- title: "devil arts"
   phrases_attributes:
-  - content: 'The shade here, beneath these two trees, is mottled <a class="keyword" href="syrup">syrup</a>.'
-    hit_points: 30
-    details_attributes:
-    - keyword: 'syrup'
-      content: 'Simple syrup left out in the sun, crystals forming on a bough.'
-  - content: 'The trees -- cherry and plum -- are stunning examples. If any <a class="keyword" href="gardening">gardening</a> has been done to them, and surely it has, it is well hidden.'
-    hit_points: 150
-    details_attributes:
-    - keyword: 'gardening'
-      content: 'Trimming away old branches, guiding growth of new ones. Of course someone is tending to this place, but we rarely see them and their cosmetic surgery is perfectly undetectable.'
-  - content: 'No lovers have read <a class="keyword" href="poetry">poetry</a> beneath the bows of these old <a class="keyword" href="beasts">beasts</a>, though they look the part.'
-    hit_points: 20
-    details_attributes:
-    - keyword: 'poetry'
-      content: 'When has a poet been inspired by something kept? They look the part, but these trees lack substance.'
-    - keyword: 'beasts'
-      content: 'You will not be allowed to come at night, but if you could you would see another side to these trees. I remember being alone at night in an old shrine and feeling as though the xenophobic gods of the place were roiling in their sleep.'
-  - content: 'There are no initials <a class="keyword" href="carved">carved</a> in either tree.'
-    hit_points: 15
-    details_attributes:
-    - keyword: 'carved'
-      content: 'You would be arrested, or fined... but it would be worth it.'
-  - content: 'No shimenawa hang from their wastes, to mark them as <a class="keyword" href="sacred">sacred</a>.'
-    hit_points: 25
-    details_attributes:
-    - keyword: 'sacred'
-      content: 'Now there are shimenawa hung from satelites and radio towers.'
-  - content: 'Once you are standing up close, looking down at <a class="keyword" href="yourself">yourself</a> looking at their reflection in the surface of the pond...'
-    hit_points: 20
-    details_attributes:
-    - keyword: 'yourself'
-      content: 'You have not slept in two days, and you probably need a shower.'
-  - content: 'They seem more <a class="keyword" href="human">human</a> than they are meant to be...'
-    hit_points: 20
-    details_attributes:
-    - keyword: 'human'
-      content: '...'
-  - content: 'They are two beautiful old trees.'
-    hit_points: 60
-  - content: 'A branch of the cherry tree <a class="keyword" href="dips">dips</a> into the pool and draws your attention <a class="title" href="an old woman raking leaves">west</a>.'
-    hit_points: 100
-    details_attributes:
-    - keyword: 'dips'
-      content: 'Tiny pink blossoms cling to the careless branch.'
-  - content: 'The plum, on the other hand, is pointing towards a great old rock reclining by the water to the <a class="title" href="large flat stone">north</a>.'
-    hit_points: 100
-- title: 'an old woman raking leaves'
+  - content: "The raised terrace is nice."
+    hit_points: 
+    
+  - content: "You can barely make out the muffled sound of boring conversation down below."
+    hit_points: 
+    
+  - content: "The terrace overlooks a garden, which you have now seen from two angles, since it is visible from the dining room also."
+    hit_points: 
+    
+  - content: "You notice that there is a second balcony above this one, but not covering it."
+    hit_points: 
+    
+  - content: "You breath in the night air and think that maybe now you are ready to go back to the dining room."
+    hit_points: 
+    
+  - content: "First though, you <a class='title' href='eager double'>step back inside</a>."
+    hit_points: 
+    
+- title: "devil brats"
   phrases_attributes:
-  - content: 'There is a small stone bench on the edge of the water.'
-    hit_points: 40
-  - content: 'A little further <a class="title" href="two handsome trees">east</a> there are two great old trees, waving their branches.'
-    hit_points: 100
-  - content: 'And <a class="title" href="mossy checker-board">north</a> of here there is some interesting masonry, stone tiles on the ground.'
-    hit_points: 100
-  - content: 'But here, shuffling her way back and forth, there is a <a class="keyword" href="woman">woman</a>.'
-    hit_points: 25
+  - content: "This is clearly a study, or writing room."
+    hit_points: 
+    
+  - content: "There are several computer monitors set up around a desk."
+    hit_points: 
+    
+  - content: "You doubt you will find any hints as to where the bathroom is, but all those darkenned monitors look like they really want to be woken up."
+    hit_points: 
+    
+  - content: "Touch <a class='title' href='devil brats amend'>the mouse</a>, maybe? There is a <a class='title' href='devil brats behold'>sliding door</a> on the right as you walk into the room."
+    hit_points: 
+    
+  - content: "You briefly consider not touching the mouse, and just stepping back into the <a class='title' href='devil'>hallway</a>."
+    hit_points: 
+    
+- title: "devil brats behold"
+  phrases_attributes:
+  - content: "A little library! The shades are drawn on two small windows, so there is very little light in the room."
+    hit_points: 
+    
+  - content: "The walls of the room are given over to bookshelves, and more encouragingly the floor is littered with little piles of books."
+    hit_points: 
+    
+  - content: "Squinting to read a few of the titles, you wonder how the dinner conversation could be so dreary given the subjects here."
+    hit_points: 
+    
+  - content: "Maybe the librarian is out tonight? Knowing you do not have enough time to really get anywhere with any of these books, you <a class='title' href='devil brats'>step back into the office</a>."
+    hit_points: 
+    
+- title: "candor bramble asp"
+  phrases_attributes:
+  - content: "In spite of yourself, you step in to the room and crouch down to examine the doll house."
+    hit_points: 
+    
+  - content: "There is a modern doll perched on the roof, dangling its naked feet infront of one of the windows, but aside from that the house looks neglected."
+    hit_points: 
+    
+  - content: "The inside is dark; looking in through one of the windows reminds you of a <a class='keyword' href='childhood memory'>childhood memory</a>."
+    hit_points: 
     details_attributes:
-    - keyword: 'woman'
-      content: 'There are other people here, treading on the moss, photographing the trees, touching the rocks with gentle fingers...'
-  - content: 'She has a <a class="keyword" href="rake">rake</a>, and is ensuring the petals are in the <a class="keyword" href="right">right</a> places.'
-    hit_points: 20
+  - content: "After a moment, you leave the room and head back to the <a class='title' href='second home foyer narrow hallway'>hallway</a>."
+    hit_points: 
+    
+- title: "candor bramble"
+  phrases_attributes:
+  - content: "You step into a bedroom belonging to a child bedroom."
+    hit_points: 
+    
+  - content: "There are posters of teenage rock idols and recent action movies, covering up wallpaper that was clearly chosen for a girl."
+    hit_points: 
+    
+  - content: "The room is a mess, not in terms of clutter or things out of place, but rather in terms of the message."
+    hit_points: 
+    
+  - content: "There are soccer trophies, some <a class='keyword' href='game machine'>game machine</a>, a variety of stuffed animals on the bed, and an <a class='title' href='candor bramble asp'>elaborate dollhouse</a>."
+    hit_points: 
     details_attributes:
-    - keyword: 'rake'
-      content: 'Its bamboo tines are finely spaced and can pick up the subtlest debris.'
-    - keyword: 'right'
-      content: 'This woman is the only person who is really here. She not on vacation.'
-  - content: 'When she sees you looking, she stops and smiles.'
-    hit_points: 15
-  - content: 'She bows a little old bow, and says "今日は。", saying each syllable intentionally.'
-    hit_points: 10
-  - content: '"いい天気ですね" she continues, looking up at the sky emphatically.'
-    hit_points: 5
+  - content: "Standing here feels a little awkward, but afterall you are a bit of a <a class='keyword' href='voyeur'>voyeur</a>."
+    hit_points: 
+    details_attributes:
+  - content: "After a moment you step back out into the <a class='title' href='candor'>hallway</a>."
+    hit_points: 
+    
+    - keyword: "game machine"
+      content: "you know which one it is, but its not important."
+    - keyword: "voyeur"
+      content: "you have always taken a special pleasure in stepping into the life of another for a moment; you imagine shouldering their burdens and fighting their battles, and somehow this makes you happy."
+- title: "eager beaver"
+  phrases_attributes:
+  - content: "The balcony is a little suspect."
+    hit_points: 
+    
+  - content: "It trends downward, under the weight of patio furniture and a small barbeque."
+    hit_points: 
+    
+  - content: "There is enough space here to sit six, and a large umbrella is folded and leans agains the side of the building."
+    hit_points: 
+    
+  - content: "Must be nice in the summer."
+    hit_points: 
+    
+  - content: "From here you can see the moon, in the east, and a great big guiding star."
+    hit_points: 
+    
+  - content: "After pausing for a moment to enjoy the quiet night air, you <a class='title' href='second home foyer great room'>step back into the attic</a>."
+    hit_points: 
+    
+- title: "devil brats amend"
+  phrases_attributes:
+  - content: "You look around before giving the mouse a little nudge."
+    hit_points: 
+    
+  - content: "Monitors come to life, and the dimly lit room is awash with color."
+    hit_points: 
+    
+  - content: "It seems your host is host to an architect also, or maybe she is in the realestate business: the monitors feature floor plans to a variety of houses."
+    hit_points: 
+    
+  - content: "There is a <a class='title' href='devil brats behold double'>sliding door</a> on the right as you walk into the room, but you can also step back into the <a class='title' href='devil'>hallway</a>."
+    hit_points: 
+    
+- title: "devil brats behold double"
+  phrases_attributes:
+  - content: "A little library! The shades are drawn on two small windows, so there is very little light in the room."
+    hit_points: 
+    
+  - content: "The walls of the room are given over to bookshelves, and more encouragingly the floor is littered with little piles of books."
+    hit_points: 
+    
+  - content: "Squinting to read a few of the titles, you wonder how the dinner conversation could be so dreary given the subjects here."
+    hit_points: 
+    
+  - content: "Maybe the librarian is out tonight? Knowing you do not have enough time to really get anywhere with any of these books, you <a class='title' href='second home foyer'>step back into the office</a>."
+    hit_points: 
+    
+- title: "candor denver altaic"
+  phrases_attributes:
+  - content: "You walk in to the enormous closet, feeling as though it might be hiding a secret washroom."
+    hit_points: 
+    
+  - content: "Instead you find it to be filled with shirts, pants, dresses, and anything else that can be put on a hanger."
+    hit_points: 
+    
+  - content: "On the floor there are a number of clear plastic boxes full of this and that."
+    hit_points: 
+    
+  - content: "Everything is nicely organized, in some places even <a class='keyword' href='colour coordinated'>colour coordinated</a>, but you cannot help  but feel it is a poor use of space."
+    hit_points: 
+    details_attributes:
+  - content: "Not wanting to linger, you step back into the <a class='title' href='second home foyer mud room'>master bedroom</a>."
+    hit_points: 
+    
+    - keyword: "colour coordinated"
+      content: "who does that?"
+- title: "candor denver"
+  phrases_attributes:
+  - content: "This is clearly a master bedroom (perhaps the master bedroom)."
+    hit_points: 
+    
+  - content: "You notice the door to <a class='title' href='candor denver altaic'>a walk in closet</a> in the far right corner of the room as you enter."
+    hit_points: 
+    
+  - content: "The bed here is wide and low, and pushed up against a heavily curtained window."
+    hit_points: 
+    
+  - content: "On the left side of the room there is a dresser, and an impressive standing mirror, next to a desktop computer on an Ikea table."
+    hit_points: 
+    
+  - content: "There is a large world map on the wall next to the computer, with little coloured pins driven into it here and there."
+    hit_points: 
+    
+  - content: "After looking around for a moment, you turn to go back into the <a class='title' href='second home foyer MB hallway'>hallway</a>."
+    hit_points: 
+    
+- title: "eager crabby"
+  phrases_attributes:
+  - content: "The studio space consists of a nice big north facing window, and a number of easels set up with canvases in various stages of completion."
+    hit_points: 
+    
+  - content: "One of the more complete works is an elaborate street scene set in the tree lined streets east of commercial: old houses and older trunks."
+    hit_points: 
+    
+  - content: "Some of the paintings look to be the works of an <a class='keyword' href='amateur'>amateur</a>, and others of an enthusiastic <a class='keyword' href='child'>child</a>."
+    hit_points: 
+    details_attributes:
+  - content: "There are pots of paint on the ground."
+    hit_points: 
+    
+  - content: "You spend a moment to appreciate the works, and only when you are sure the washroom is nowhere to be found in them do you turn back to consider the rest of the <a class='title' href='devil brats'>attic</a>."
+    hit_points: 
+    
+    - keyword: "amateur"
+      content: "that is, they look like experiments in technique or explorations more than polished finished works. You have always prefered amateurs, which I suppose is why you are here now."
+    - keyword: "child"
+      content: "her subject mater is more mature, you feel."
+- title: "candor eagle archer"
+  phrases_attributes:
+  - content: "You open the cabinet doors and find that they reveal a laundry shoot! The back of the cabinet has been cut away to reveal the little laundry shoot that must have been part of the original design."
+    hit_points: 
+    
+  - content: "With a smile on your face you <a class='title' href='second home foyer'>Step back from the cabinet</a>."
+    hit_points: 
+    
+- title: "candor eagle"
+  phrases_attributes:
+  - content: "The cabinet looks large enough to hold coats, but you remember your host taking your coat in the foyer."
+    hit_points: 
+    
+  - content: "Though it is not likely to be the bathroom, you feel a little curious... maybe you should <a class='title' href='candor eagle archer'>open the cabinet</a>? On the other hand, maybe you should <a class='title' href='candor'>step back</a> and go through one of the doors."
+    hit_points: 
+    
+- title: "second home foyer deck two"
+  phrases_attributes:
+  - content: "The backyard of this old house is something to write home about."
+    hit_points: 
+    
+  - content: "You cannot make out all of the details in the twilight, but you can see a picturesque tree-house, a swing-set, love seats, and a little pond."
+    hit_points: 
+    
+  - content: "There might be more out there, fenced in by hedges, but you will not know for sure unless you stay the night (which is looking more and more likely)."
+    hit_points: 
+    
+  - content: "With that, you step in off the <a class='title' href='eager double'>deck</a>."
+    hit_points: 
+    
+- title: "second home foyer deck one"
+  phrases_attributes:
+  - content: "The backyard of this old house is something to write home about."
+    hit_points: 
+    
+  - content: "You cannot make out all of the details in the twilight, but you can see a picturesque tree-house, a swing-set, love seats, and a little pond."
+    hit_points: 
+    
+  - content: "There might be more out there, fenced in by hedges, but you will not know for sure unless you stay the night (which is looking more and more likely)."
+    hit_points: 
+    
+  - content: "With that, you step in off the <a class='title' href='devil'>deck</a>."
+    hit_points: 
+    
+- title: "second home foyer hearth"
+  phrases_attributes:
+  - content: "It is a lovely hearth with a few baubles on it."
+    hit_points: 
+    
+  - content: "Chief among them is an intricate snow globe, featuring a tiny replica house."
+    hit_points: 
+    
+  - content: "Naturally, you pick it up and send the snow flakes crashing about, before <a class='title' href='candor'>wandering off again</a>."
+    hit_points: 
+    
+- title: "second home foyer great room"
+  phrases_attributes:
+  - content: "You pass into the great room of this old house."
+    hit_points: 
+    
+  - content: "Furniture all around."
+    hit_points: 
+    
+  - content: "The room is about 20 square feet, with a <a class='title' href='second home foyer hearth'>hearth</a> dominating the left side of the room as you walk in."
+    hit_points: 
+    
+  - content: "The far side of the room is given over to two sets of <a class='title' href='second home foyer deck one'>glass double doors</a> (one <a class='title' href='second home foyer deck two'>closer to the hearth</a>)."
+    hit_points: 
+    
+  - content: "On your right, the walls open up <a class='title' href='second home foyer morning room'>into the morning room/kitchen</a>."
+    hit_points: 
+    
+  - content: "You can also leave this room by passing through an <a class='title' href='second home foyer'>arched traverse</a> into the foyer, across from the glass double doors."
+    hit_points: 
+    
+- title: "second home foyer morning room"
+  phrases_attributes:
+  - content: "It is not morning, so the morning room is not operating at peak lovelyness (but you can imagine)."
+    hit_points: 
+    
+  - content: "On the far side of the room as you walk in there is a small breakfast or luncheon table below a wide window."
+    hit_points: 
+    
+  - content: "The left side of the room is completely open, with just a small step down into the <a class='title' href='second home foyer great room'>grand room</a>."
+    hit_points: 
+    
+  - content: "The right side of the room is, odly enough, a small (apparently well stocked) kitchen."
+    hit_points: 
+    
+  - content: "No doubt this is a modern addition; maybe there used to be a wall dividing the two."
+    hit_points: 
+    
+  - content: "A <a class='title' href='second home foyer narrow hallway'>hallway</a> leads away from the kitchen parallel to a small <a class='title' href='second home foyer'>arched traverse</a> through which you can see the foyer."
+    hit_points: 
+    
+- title: "second home foyer small office"
+  phrases_attributes:
+  - content: "Oh! This is not a storage room as you had asumed, but rather a small office! Kind of a dreadful little place: there are no windows on any of the walls, and the room is uncomfortably warm on account of several desktops."
+    hit_points: 
+    
+  - content: "You have no clue what could motivate someone to spend their time in here, and so you step back into the <a class='title' href='devil brats behold'>mud room</a>."
+    hit_points: 
+    
+- title: "second home foyer pantry"
+  phrases_attributes:
+  - content: "You are standing in a little pantry."
+    hit_points: 
+    
+  - content: "This pantry is stocked for prepairing meals, rather than for snacking and contains a freezer and a fridge, as well as shelves full of jars."
+    hit_points: 
+    
+  - content: "It looks like your host does some of their own pickling, as there are a number of jars full of lemons, carrots, beats, and such suspended in colourful liquids."
+    hit_points: 
+    
+  - content: "Not much in the way of jerky or dried fruit."
+    hit_points: 
+    
+  - content: "Now that you have taken stock, you feel ready to <a class='title' href='second home foyer narrow hallway'>leave the pantry</a>."
+    hit_points: 
+    
+- title: "second home foyer narrow hallway"
+  phrases_attributes:
+  - content: "The hallway is narrow and the ceiling is not high."
+    hit_points: 
+    
+  - content: "The walls are nicely painted now, but you assume that in the past they were much more bland."
+    hit_points: 
+    
+  - content: "There is a <a class='title' href='second home foyer mud room'>heavy looking door</a> on the right and a <a class='title' href='second home foyer pantry'>smaller door</a> on the left."
+    hit_points: 
+    
+  - content: "The hallway opens into the <a class='title' href='second home foyer dining room'>dining room</a> on one side and a <a class='title' href='second home foyer morning room'>spacious kitchen</a> on the other."
+    hit_points: 
+    
+- title: "second home foyer mud room"
+  phrases_attributes:
+  - content: "This is a mud room, for scraping off your boots."
+    hit_points: 
+    
+  - content: "There are two doors, <a class='title' href='second home foyer laundry'>one on the right</a> and <a class='title' href='second home foyer small office'>one of the left</a> leading into storage rooms (presumably)."
+    hit_points: 
+    
+  - content: "There is also an exterior door here, but you would not be interested in that I think (the nearest public washroom is quite a walk)."
+    hit_points: 
+    
+  - content: "The heavy door to the mud room is ajar, and you can see the <a class='title' href='second home foyer narrow hallway'>hallway beyond</a>."
+    hit_points: 
+    
+- title: "second home foyer laundry"
+  phrases_attributes:
+  - content: "You step into a small laundry room."
+    hit_points: 
+    
+  - content: "Three little machines sleep here: a washer, a drier, and something larger that is maybe for sheets."
+    hit_points: 
+    
+  - content: "There is a shelf near the door with some cleaning agents, but little else."
+    hit_points: 
+    
+  - content: "Without much thought, you step back into the <a class='title' href='second home foyer mud room'>mud room</a>."
+    hit_points: 
+    
+- title: "second home foyer MB hallway"
+  phrases_attributes:
+  - content: "A long hallway that ends with a door."
+    hit_points: 
+    
+  - content: "The hallway is decorated with old portraits, but no photos...  you wonder how many relatives one family can have."
+    hit_points: 
+    
+  - content: "There are portraits like these in your house too, but not as many."
+    hit_points: 
+    
+  - content: "The door <a class='title' href='second home foyer master bedroom'>up ahead</a> looks to be a bedroom, which gives you hope."
+    hit_points: 
+    
+  - content: "These older collonial houses often had washrooms attached to the master bedroom, you seem to recal."
+    hit_points: 
+    
+  - content: "You can also see the foyer down the <a class='title' href='second home foyer'>other end of the hallway</a>."
+    hit_points: 
+    
+- title: "second home foyer"
+  phrases_attributes:
+  - content: "The foyer is a grand place, with a heigh ceiling and stained glass windows next to the door."
+    hit_points: 
+    
+  - content: "A rug at the foot of a great staircase dominates the foyer."
+    hit_points: 
+    
+  - content: "The stairs split halfway up, into a \"T\", and under each branch is an arched traverse into the rooms beyond."
+    hit_points: 
+    
+  - content: "The stairs divide the room into left and right (facing the stairs): on the left there is a <a class='title' href='second home foyer office'>foggy glass paned double door</a>, a <a class='title' href='second home foyer MB hallway'>hallway</a>, and an <a class='title' href='second home foyer great room'>arched traverse</a> leading into what looks like a large relatively empty room; on the right there is a pair of <a class='title' href='second home foyer dining room'>french sliding doors</a>, a <a class='title' href='second home foyer powder'>small door</a> with a picture hanging on it, and again an <a class='title' href='second home foyer morning room'>arched traverse</a> through which can be seen a kitchen of sorts."
+    hit_points: 
+    
+- title: "second home foyer powder"
+  phrases_attributes:
+  - content: "You push open the delicate door into a tiny powder room."
+    hit_points: 
+    
+  - content: "A convenient thing to have in a foyer...  if only it was also a washroom."
+    hit_points: 
+    
+  - content: "A large mirror cabinet, probably full of powder, and a little sink make up the only significant fixtures in this room."
+    hit_points: 
+    
+  - content: "You consider running a bit of water over your hands, but hesitate  since you do actually need to find a washroom."
+    hit_points: 
+    
+  - content: "With that in mind, you step back into the <a class='title' href='second home foyer'>foyer</a>."
+    hit_points: 
+    
+- title: "second home foyer master bathroom"
+  phrases_attributes:
+  - content: "You flip a light-switch on the wall and look about the room."
+    hit_points: 
+    
+  - content: "This is a bathroom, without a doubt."
+    hit_points: 
+    
+  - content: "An enormous bathtub, large enough for three or four, dominates the left side of the room."
+    hit_points: 
+    
+  - content: "Behind it is a window with wooden blinds, so that light can filter through."
+    hit_points: 
+    
+  - content: "The sink, low cabinets, and wall mirror are equally splendid, stretching ten feet across and trimmed with gold and silver fixtures."
+    hit_points: 
+    
+  - content: "There is no toilet here, but there is a <a class='title' href='second home foyer pantry'>small door</a> with a glass handle on the right side of the room."
+    hit_points: 
+    
+- title: "second home foyer master bedroom"
+  phrases_attributes:
+  - content: "This is a master bedroom."
+    hit_points: 
+    
+  - content: "The bed is enormouse, and well made."
+    hit_points: 
+    
+  - content: "A grey curtain hangs over the back of it, and a long shock of grey fabric covers its foot."
+    hit_points: 
+    
+  - content: "Below the foot of the bed is a pair of stools, each with a tiny pillow."
+    hit_points: 
+    
+  - content: "You wonder whether anyone actually uses this room; if so, then they must hire cleaners."
+    hit_points: 
+    
+  - content: "There is a tall mirrored chest beside an even taller window, curtained with the same grey material common throughout the room."
+    hit_points: 
+    
+  - content: "Beside the bed, on the right, is a little night-stand with an adorable lamp."
+    hit_points: 
+    
+  - content: "Standing at the threshold of this well preserved room, you feel the urge to just turn around and go <a class='title' href='candor arbor'>back where you came</a>."
+    hit_points: 
+    
+  - content: "However, there is also a promising looking <a class='title' href='second home foyer master bathroom'>door</a> in the far right corner of the room..."
+    hit_points: 
+    
+- title: "second home foyer office"
+  phrases_attributes:
+  - content: "You push open the door and find yourself in a tight little office."
+    hit_points: 
+    
+  - content: "Everything in the office is conveniently within reach of a little wooden office chair in its center."
+    hit_points: 
+    
+  - content: "There is a curtained window to your left, and a little potted fern below that."
+    hit_points: 
+    
+  - content: "The desk that dominates much of the room looks like it aught to have a typewritter on it, but instead is home to a large laptop."
+    hit_points: 
+    
+  - content: "There is a small shelf of books against the right wall."
+    hit_points: 
+    
+  - content: "Mostly these are reference material: Whoever sits in this office is interested comparative law, and aboriginal title in particular."
+    hit_points: 
+    
+  - content: "Satisfied, you head back to the <a class='title' href='candor bramble'>foyer</a>."
+    hit_points: 
+    
+- title: "second home foyer dining room"
+  phrases_attributes:
+  - content: "This dinning room is far too big, and fortunately it is empty."
+    hit_points: 
+    
+  - content: "You would hate to wander back into the dining room you had left, without finding the washroom."
+    hit_points: 
+    
+  - content: "There are a number of windows on the west side of the room, cleverly placed so as to maximize daylight."
+    hit_points: 
+    
+  - content: "The dinning table is quite enormous, and round."
+    hit_points: 
+    
+  - content: "It almost looks too big for the room, with the chairs neatly tucked in and the table-cloth in a neutral color."
+    hit_points: 
+    
+  - content: "A <a class='title' href='second home foyer narrow hallway'>long narrow hallway</a> opposite the windows leads away from the dinning room, but you can also walk into the <a class='title' href='second home foyer'>foyer</a>."
+    hit_points: 
+    

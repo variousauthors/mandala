@@ -1,0 +1,625 @@
+(dp0
+S'buildDestination'
+p1
+S''
+p2
+sS'saveDestination'
+p3
+VZ:\u005chome\u005czeigfreid\u005cgithub\u005cmandala\u005cpilgrimage.tws
+p4
+sS'target'
+p5
+S'sugarcane'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+I10
+aI710
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+VAt the base of the mountain, the path is narrow and flanked by { tall dry grass }. \u000aEach blade casts its own shadow in response to the { rising sun }. \u000aOne lonely cypress stands in the distance, marking the first step on the { godsmarch }.\u000a{ The day is long }, but [[the road is longer|beast]].\u000a\u000a  tall dry grass: shin height, and wire thin\u000a  rising sun: bright yellow and blue; clouds above are lit from below.\u000a  godsmarch: as long as there have been gods to worship, the godsmarch has been the measure of them.\u000a  The day is long: though minazuki has passed, the sun shows no sign of growing lazy.
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I6
+I3
+I16
+I59
+I42
+I0
+I154
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+Vantler
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+I150
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+VYour legs are fresh, and you reach the old cypress quickly.\u000aThe beast shades the road, its lowest branches are stretched beyond its means and hang limply, { brushing } the hill where it gets steeper.\u000aIts trunk is youthful and very wide at the base, with a texture like hurried river snakes.\u000aBelow the lowest branches there is a { shrine }.\u000aThe road continues [[ into the forest |cage]], and up the old mountain.\u000a\u000a  shrine: little more than a knee-high board of wood hung from a frame, supported by a base of stone. Two ragged paper lightning-bolts hang from a small roof.\u000a  brushing: sweeping the grounds of holy places has traditionally been a man's job
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I6
+I3
+I17
+I20
+I53
+I0
+I154
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+Vbeast
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+I290
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+VThe dry earth becomes { softer }, and the grass a deeper shade of brown.\u000a1,000 rivers flow out of the godsmarch, and the first one is up ahead.\u000aFor every river, it is said there is a { dragon } and each dragon guards 100 gods.\u000aThere are { 100,000 } shrines on the faces of the godsmarch, one for every god.\u000aUp ahead a { tori-i } guards a { small bridge }, and the bridge [[ crosses a stream |deaf]] making its way down-hill.\u000a\u000a  softer: the path is well walked, and the earth is packed flat, but off the path --  where feet dare not tread -- the soil is rich in spite of greedy rice fields.\u000a  dragon: the dragons names are known, and when written forward they bring good-luck.\u000a  10,000: no coincidence that there are also 100,000 words, as these are the gods themselves.\u000a  tori-i: this one was painted red, but now the paint is scratched and caked with bird-shit; it is profane to wash this.\u000a  small bridge: bridges, rainbows, and rivers are the bodies of dragons (bridges are the least of these).
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I6
+I3
+I17
+I47
+I34
+I0
+I154
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+Vcage
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+I430
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+VYou pass beneath the { tori-i } and step onto the { bridge }.\u000aNow you are on the godsmarch, and under the scrutiny of dragons.\u000aThe bridge is a plain grey wood with a low railing made dark by the { gurgling } stream below.\u000a{ Trees } are beginning to dominate your field of vision, and the tall grass is being devoured by a more voracious weed.\u000aThere is a { large stone } in the stream, with a hat of grey-green moss.\u000aFrom the bridge you spot a tiny shrine on the other side, but a small way [[off the path|able approach]].\u000aUp [[ahead|emerald]] you notice another tori-i on the left, marking the { approach } to the first of the larger shrines.\u000a\u000a  bridge: it complains a little.\u000a  tori-i: the little blue bird watches you.\u000a  gurgling: deeper in the forest it is said that kodama speak to human folk; the stream is not trying to speak to you, though.\u000a  trees: some, like the cypress, are wide at the base and grow thin; others have branches that meander.\u000a  large stone: you suspect it has some religious significance.\u000a  approach: do you remember how to approach a shrine?
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I2
+I47
+I0
+I154
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+Vdeaf
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+I570
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+VYour young legs carry you across the small bridge, deeper into the godsmarch.\u000aThe { tori-i } on the side of the road is of a { different variety }; it is a rough thing made of three logs in the shape of a gate.\u000aThe tori-i has never been painted, but { time } has worn away the brown bark and revealed a more tender { reddish-brown } flesh.\u000aNow that you are nearby, you notice a small statue of a { fox } lurking behind the reddish-brown tori-i.\u000aThe fox statue is plain grey stone, but full of detail and wearing a bright red bib.\u000aIt is not sitting in the traditional pose; it looks { sly } and full of { guile }.\u000a[[Past the tori-i|brave approach]] there are stairs that ascend to the shrine proper, but the [[road continues|fatigue]] perpendicular.\u000a\u000a  tori-i: many of these log gates were donated by samurai, as a form of tax evasion.\u000a  different variety: some of them were donated by scientists, to bless their research.\u000a  time: and rain.\u000a  reddish-brown: these logs are not native to the godsmarch, and must have been brought from the north at great pains.\u000a  fox: it has pointy ears and an exagerated tail.\u000a  sly: perhaps it is a spy sent from another shrine.\u000a  guile: perhaps it is a trickster spirit in the shape of a statue of a trickster spirit.
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I17
+I41
+I0
+I154
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+Vemerald
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+I430
+aI570
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+g18
+VLooking back across the bridge, you watch the cypress dressed in sunlight.\u000aHere the light is shattered by tall trees.\u000aYou walk alongside the stream, past that large stone you noticed.\u000aThe shrine is [[up ahead|able shrine]], two stone lanterns and a monolith of some sort.
+p79
+sg20
+(lp80
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I17
+I45
+I0
+I154
+I1
+tp81
+(dp82
+tp83
+Rp84
+sg28
+g84
+sg29
+Vable approach
+p85
+sbsa(dp86
+g12
+I00
+sg13
+(lp87
+I430
+aI430
+asg15
+(itiddlywiki
+Tiddler
+p88
+(dp89
+g18
+VMonolith with some writing.\u000aMakes you want to go to { sleep }.\u000a\u000a  sleep: you expect this will not be the last time you feel the gentle tug of dreaming.
+p90
+sg20
+(lp91
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I24
+I51
+I0
+I154
+I1
+tp92
+(dp93
+tp94
+Rp95
+sg28
+g95
+sg29
+Vable shrine
+p96
+sbsa(dp97
+g12
+I00
+sg13
+(lp98
+I710
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p99
+(dp100
+g18
+VYou walk and walk, and the forest { grows and grows }.\u000aBirds flit about in the branches, hunting insects.\u000aA { centipede } crosses the path, pretending it doesn't see you.\u000a{ Walk walk walk }, and the trail gets wider and more well kept, with wooden stairs where it is too steep, and tiny stone bridges across tiny streams.\u000aYou spot another young cypress, growing out of the stump of a great fallen { sister }.\u000aMossy rocks { gather } around the base of the { young cypress }, and { snake grass } around them.\u000a[[The road continues|growth]].\u000a\u000a  centipede: the ones that creep here are said to be deadly, but you've never actually heard of anyone being bit.\u000a  sister: she fell across the road, but monks with axes and time on their hands cleared enough of her away.\u000a  grows and grows: now there are fewer of the tall thin trees, and more of the trees that spread and thrive by indirection.\u000a  Walk walk walk: your legs do not tire, you don't need to be pushed.\u000a  gather: the mossy stones brought the snake grass with them, when they heard the old sister had fallen.\u000a  snake grass: it guards the roads while the mossy stones whisper advice to the young cypress.\u000a  young cypress: it looks rediculous like that, growing out of the great base of an old tree.
+p101
+sg20
+(lp102
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I40
+I5
+I0
+I154
+I1
+tp103
+(dp104
+tp105
+Rp106
+sg28
+g106
+sg29
+Vfatigue
+p107
+sbsa(dp108
+g12
+I00
+sg13
+(lp109
+I570
+aI570
+asg15
+(itiddlywiki
+Tiddler
+p110
+(dp111
+g18
+VYou step past the tori-i and the fox's watchful eyes.\u000aJust beyond, there are stairs that [[ascend towards the shrine|brave nope]]; and a second set of stairs that take a more [[round-about path|brave shrine]].\u000aThe first set of stairs are hewn of old stone and { fenced } on the sides.\u000aThe second set of stairs is rugged, having been carved from the dirt and stone of the mountain and then pressed firm by the passing of { generations of pilgrims }.\u000aWild { orange and persimmon } trees trellace the rough stairs, and the husks of old fruit feed the { weeds }.\u000aA single brightly coloured { orange } lies half way up the rough stairs.\u000a\u000a  fenced: hardly a fence, it is more symbolic than practical.\u000a  generations of pilgrims: eventually, everyone must walk the godsmarch.\u000a  orange and persimmon: the oranges fruit in the spring and summer, and the persimmons fruit in fall; this way there is always fruit on hand to feed the dragons.\u000a  weeds: and various lesser spirits not having their own shrines.\u000a  orange: it reminds you of the morning sun.
+p112
+sg20
+(lp113
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I40
+I8
+I0
+I154
+I1
+tp114
+(dp115
+tp116
+Rp117
+sg28
+g117
+sg29
+Vbrave approach
+p118
+sbsa(dp119
+g12
+I00
+sg13
+(lp120
+I710
+aI570
+asg15
+(itiddlywiki
+Tiddler
+p121
+(dp122
+g18
+VYou lose track of yourself for a moment and set a foot on first stone step.\u000aA shiver creeps up your spine as realization dawns, and you carefully take your foot back off the step.\u000a[[Behind you|brave approach]], you feel the eyes of that fox on your back.
+p123
+sg20
+(lp124
+sg22
+g23
+((I2013
+I6
+I3
+I18
+I59
+I25
+I0
+I154
+I1
+tp125
+(dp126
+tp127
+Rp128
+sg28
+g128
+sg29
+Vbrave nope
+p129
+sbsa(dp130
+g12
+I00
+sg13
+(lp131
+I570
+aI430
+asg15
+(itiddlywiki
+Tiddler
+p132
+(dp133
+g18
+VMany fox statues.
+p134
+sg20
+(lp135
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I1
+I45
+I0
+I154
+I1
+tp136
+(dp137
+tp138
+Rp139
+sg28
+g139
+sg29
+Vbrave shrine
+p140
+sbsa(dp141
+g12
+I00
+sg13
+(lp142
+I850
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g18
+VYou come to a bit of water on the road.\u000aIt looks as though a river some ways up { sprung a leak } just long enough ago that the water flowing downhill has washed the path away, and replaced it with { stepping stones }.\u000aThere are a number of { small coins }, just beginning to gather green life, sinking into the dirt beneath the running water.\u000a[[Past the stepping stones|horizon]] you can see a number of bright red tori-i.\u000aTime is passing, and the godsmarch is long.\u000a\u000a  sprung a leak: this happens sometimes.\u000a  stepping stones: the stones have not gathered any moss yet; they are firm and not slippery.\u000a  small coins: ten-yen pieces, with little square holes in them.
+p145
+sg20
+(lp146
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I9
+I23
+I0
+I154
+I1
+tp147
+(dp148
+tp149
+Rp150
+sg28
+g150
+sg29
+Vgrowth
+p151
+sbsa(dp152
+g12
+I00
+sg13
+(lp153
+I990
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p154
+(dp155
+g18
+VLeaving the trickle of the stream behind, you come to a curve in the road marked by three red tori-i standing one after the other.\u000aThese tori-i are bright red, with fresh paint. \u000aThey are ten feet tall and are shaped vaguely like the word "yen", with a { cross bar } joining the two horizontal poles.\u000aEach of the tori-i is inscribed with letters and fresh, gold paint.\u000aThese are the names of { donors }, or the names of { the dead }, or prayers for the once living.\u000aPassing beneath the tori-i always indicates [[walking deeper|imagine]] into the sacred.\u000a\u000a  cross bar: you heard the name of this once, but can't remember.\u000a  donors: Taisho Pharmaceutical and Sugi Holdings are among the donors.\u000a  the dead: "kon satoshi" features among the more prominent names.
+p156
+sg20
+(lp157
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I9
+I36
+I0
+I154
+I1
+tp158
+(dp159
+tp160
+Rp161
+sg28
+g161
+sg29
+Vhorizon
+p162
+sbsa(dp163
+g12
+I01
+sg13
+(lp164
+I1130
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p165
+(dp166
+g18
+VA slope roofed box as tall as you, with a little cuby. Inside there is a box, a small statue stolen from a mainland religion, a glass cup of sake from the convenience store (still seeled), and a wilted flower in a pot (basically a dry stem).
+p167
+sg20
+(lp168
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I9
+I49
+I0
+I154
+I1
+tp169
+(dp170
+tp171
+Rp172
+sg28
+g172
+sg29
+Vimagine
+p173
+sbsa(dp174
+g12
+I00
+sg13
+(lp175
+I1270
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p176
+(dp177
+g18
+VThree more tori-i. These mark the beginning of the afternoon. As you pass, the light of the sun flashes between the posts, through a break in the thick forest.
+p178
+sg20
+(lp179
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I11
+I5
+I0
+I154
+I1
+tp180
+(dp181
+tp182
+Rp183
+sg28
+g183
+sg29
+Vha ha ha
+p184
+sbsa(dp185
+g12
+I00
+sg13
+(lp186
+I1130
+aI570
+asg15
+(itiddlywiki
+Tiddler
+p187
+(dp188
+g18
+VA moment of worship
+p189
+sg20
+(lp190
+sg22
+g23
+((I2013
+I6
+I3
+I19
+I12
+I53
+I0
+I154
+I1
+tp191
+(dp192
+tp193
+Rp194
+sg28
+g194
+sg29
+VUntitled Passage 4
+p195
+sbsasS'scale'
+p196
+I1
+ss.
