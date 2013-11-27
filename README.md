@@ -24,3 +24,10 @@ Once this is done, seed the database in the normal manner and deploy.
 When the database is seeded, and the mandala is deployed, then you must move the
 markdown and the seeds.yaml file to a hidden place in a locked repo where no one
 will be able to peek.
+
+##ToDO
+
+I need some way of "tapping" the site, to see how healthy it is without decrementing
+any counters. Right now, inspecting the db is the only good way.
+
+Twitter integration: I want what Sword & Sworcery and Nested have.
